@@ -1,0 +1,32 @@
+# Race Event Configuration Template
+event_name: "ADAC RAVENOL 24h Nürburgring 2026"
+event_year: 2026
+timezone: "Europe/Berlin"
+
+# Timestamps in local German time (CEST: UTC+2)
+# The 2026 24h Nürburgring took place over May 14–17, 2026
+schedule:
+  warmup_start: "2026-05-16T12:40:00+02:00"
+  grid_walk_start: "2026-05-16T14:45:00+02:00"
+  formation_lap: "2026-05-16T15:40:00+02:00"
+  race_start: "2026-05-16T16:00:00+02:00"
+  race_finish: "2026-05-17T16:00:00+02:00"
+
+# Red flag / race neutralization periods (update if any stoppages occurred during the 2026 edition)
+red_flags: []
+
+# Major racing classes at Nürburgring
+classes:
+  - code: "SP9"
+    name: "FIA GT3 (Overall Contenders)"
+  - code: "SP-X"
+    name: "Special / Concept Vehicles"
+  - code: "CUP2"
+    name: "Porsche 911 GT3 Cup (992)"
+  - code: "CUP3"
+    name: "Porsche 718 Cayman GT4 Clubsport"
+  - code: "TCR"
+    name: "Touring Car Racing"
+  - code: "VT2"
+    name: "Production Touring Cars (Turbo up to 2000cc)"
+

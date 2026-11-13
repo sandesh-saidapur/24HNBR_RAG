@@ -1,0 +1,126 @@
+# Nürburgring Combined Circuit (GP-Strecke + Nordschleife) - Key Spectator & Track Sectors
+circuit_name: "Nürburgring Nordschleife 24h Layout"
+total_length_km: 25.378
+timezone: "Europe/Berlin"
+
+sectors:
+  - id: "t13_grand_prix"
+    name: "T13 & Grand Prix Track"
+    km_marker: 0.0
+    approx_gps:
+      lat: 50.3341
+      lon: 6.9427
+    description: "Start/Finish straight, pit lane, Mercedes-Arena, and transition onto the Nordschleife."
+
+  - id: "hatzenbach"
+    name: "Hatzenbach"
+    km_marker: 1.5
+    approx_gps:
+      lat: 50.3422
+      lon: 6.9535
+    description: "Technical, twisty opening complex of the Nordschleife through the woods."
+
+  - id: "flugplatz"
+    name: "Flugplatz & Quiddelbacher Höhe"
+    km_marker: 3.5
+    approx_gps:
+      lat: 50.3547
+      lon: 6.9634
+    description: "High-speed crest where GT3 cars go light, followed by rapid right-handers."
+
+  - id: "schwedenkreuz"
+    name: "Schwedenkreuz"
+    km_marker: 5.0
+    approx_gps:
+      lat: 50.3642
+      lon: 6.9685
+    description: "Ultra high-speed blind left kink leading into Aremberg. Crucial overtaking zone."
+
+  - id: "fuchsroehre"
+    name: "Fuchsröhre (Foxhole)"
+    km_marker: 6.5
+    approx_gps:
+      lat: 50.3705
+      lon: 6.9741
+    description: "Steep plunge into the valley with immense compression at the bottom."
+
+  - id: "adenauer_forst"
+    name: "Adenauer Forst"
+    km_marker: 8.0
+    approx_gps:
+      lat: 50.3752
+      lon: 6.9823
+    description: "Famous tight chicane following a fast blind crest; frequent braking lockups."
+
+  - id: "wehrseifen"
+    name: "Wehrseifen"
+    km_marker: 9.8
+    approx_gps:
+      lat: 50.3801
+      lon: 6.9892
+    description: "Slowest corner on the Nordschleife; sharp downhill hairpin."
+
+  - id: "breidscheid"
+    name: "Breidscheid"
+    km_marker: 10.5
+    approx_gps:
+      lat: 50.3842
+      lon: 6.9954
+    description: "Lowest elevation point on the circuit with the bridge crossing in the town of Adenau."
+
+  - id: "bergwerk"
+    name: "Bergwerk"
+    km_marker: 12.0
+    approx_gps:
+      lat: 50.3820
+      lon: 7.0090
+    description: "Crucial right-hander leading onto the uphill section of Kesselchen."
+
+  - id: "karussell"
+    name: "Caracciola-Karussell"
+    km_marker: 15.2
+    approx_gps:
+      lat: 50.3695
+      lon: 7.0082
+    description: "Iconic banked concrete bowl; cars hook inside the banking at ~100 km/h."
+
+  - id: "hohe_acht"
+    name: "Hohe Acht"
+    km_marker: 16.0
+    approx_gps:
+      lat: 50.3651
+      lon: 7.0034
+    description: "Highest elevation point on the track (614 meters above sea level)."
+
+  - id: "bruennchen"
+    name: "Brünnchen (YouTube Corner)"
+    km_marker: 18.0
+    approx_gps:
+      lat: 50.3688
+      lon: 7.0195
+    description: "Massive spectator camping area, drops, curb-hopping, and atmosphere."
+
+  - id: "pflanzgarten"
+    name: "Pflanzgarten"
+    km_marker: 19.5
+    approx_gps:
+      lat: 50.3654
+      lon: 7.0252
+    description: "Jump crest and fast technical esses with glowing brakes at night."
+
+  - id: "schwalbenschwanz"
+    name: "Schwalbenschwanz & Kleines Karussell"
+    km_marker: 21.0
+    approx_gps:
+      lat: 50.3592
+      lon: 7.0210
+    description: "Mini-carousel banked section leading toward the main straight."
+
+  - id: "doettinger_hoehe"
+    name: "Döttinger Höhe"
+    km_marker: 23.0
+    approx_gps:
+      lat: 50.3440
+      lon: 6.9920
+    description: "2.1 km full-throttle straight with top speeds exceeding 285 km/h for GT3s."
+

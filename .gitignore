@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+
+# Data & local stores (keep sample structure, ignore large local dumps)
+data/raw/personal_media/*
+!data/raw/personal_media/.gitkeep
+data/raw/official_timing/*
+!data/raw/official_timing/.gitkeep
+data/raw/bulletins/*
+!data/raw/bulletins/.gitkeep
+data/raw/transcripts/*
+!data/raw/transcripts/.gitkeep
+data/raw/regulations/*
+!data/raw/regulations/.gitkeep
+data/processed/*.parquet
+data/processed/*.duckdb
+data/vector_store/
+
+# OS metadata
+.DS_Store
+Thumbs.db
