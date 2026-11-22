@@ -45,3 +45,16 @@ data/vector_store/
 # OS metadata
 .DS_Store
 Thumbs.db
+
+
+# Personal media (contains GPS and timestamps) and derived catalogues: never commit
+media/
+data/processed/*.csv
+data/processed/*.json
+
+# Organiser documents and the unverified dossier copy: keep out of git
+data/processed/*.pdf
+data/processed/*.csv
+
+# Third-party screenshot of another series: not part of the project
+data/raw/track_geometry/Screenshot*

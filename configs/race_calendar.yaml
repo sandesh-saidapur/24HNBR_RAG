@@ -3,14 +3,14 @@ event_name: "ADAC RAVENOL 24h Nürburgring 2026"
 event_year: 2026
 timezone: "Europe/Berlin"
 
-# Timestamps in local German time (CEST: UTC+2)
+# Timestamps in local German time (CEST: UTC+2). Start and finish verified against official-source reporting, see docs/data-sources.md.
 # The 2026 24h Nürburgring took place over May 14–17, 2026
 schedule:
-  warmup_start: "2026-05-16T12:40:00+02:00"
-  grid_walk_start: "2026-05-16T14:45:00+02:00"
-  formation_lap: "2026-05-16T15:40:00+02:00"
-  race_start: "2026-05-16T16:00:00+02:00"
-  race_finish: "2026-05-17T16:00:00+02:00"
+  warmup_start: "2026-05-16T10:00:00+02:00"   # Porsche schedule: warm-up 10:00-11:00
+  grid_walk_start: "2026-05-16T12:45:00+02:00"   # grid formation 12:45-14:40
+  formation_lap: "2026-05-16T14:40:00+02:00"   # formation lap 14:40 CEST
+  race_start: "2026-05-16T15:00:00+02:00"   # verified: Porsche, Red Bull, 24h-rennen.de
+  race_finish: "2026-05-17T15:00:00+02:00"   # verified: 24 hours after the 15:00 start
 
 # Red flag / race neutralization periods (update if any stoppages occurred during the 2026 edition)
 red_flags: []

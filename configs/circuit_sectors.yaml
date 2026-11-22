@@ -1,3 +1,9 @@
+# STATUS: UNVERIFIED. The approx_gps values and km_marker values below came from the initial
+# blueprint and have NOT been checked against a source. Known conflicts:
+#   - breidscheid: an earlier lookup suggested 50.37389 N, 6.95194 E (about 3.6 km from the value here). Re-check before use.
+#   - bruennchen: a Komoot page places Brünnchen at kilometre 16, but this file says 18.0.
+#   - karussell: not yet checked against any source. Confirm its position before use.
+# Do not use these coordinates for geofencing until each sector is verified.
 # Nürburgring Combined Circuit (GP-Strecke + Nordschleife) - Key Spectator & Track Sectors
 circuit_name: "Nürburgring Nordschleife 24h Layout"
 total_length_km: 25.378

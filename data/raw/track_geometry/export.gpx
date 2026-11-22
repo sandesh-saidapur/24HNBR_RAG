@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="overpass-turbo"><metadata><desc>Filtered OSM data converted to GPX by overpass turbo</desc><copyright author="The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."/><time>2026-11-22T11:38:02Z</time></metadata><trk><name>Grand-Prix-Fahrerlager</name><desc>alt_name=Neues Fahrerlager
+amenity=parking
+description=Fahrerlager
+name=Grand-Prix-Fahrerlager
+name:en=Grand Prix Paddock
+parking=surface
+sport=motor
+surface=asphalt
+toilets=yes</desc><link href="http://osm.org/browse/way/32938766"/><trkseg><trkpt lat="50.333965" lon="6.944386"/><trkpt lat="50.3359526" lon="6.9473913"/><trkpt lat="50.3362032" lon="6.9477201"/><trkpt lat="50.3362609" lon="6.9476269"/><trkpt lat="50.3366465" lon="6.948218"/><trkpt lat="50.336935" lon="6.9482014"/><trkpt lat="50.3371228" lon="6.9481865"/><trkpt lat="50.3371687" lon="6.948161"/><trkpt lat="50.3371006" lon="6.9480335"/><trkpt lat="50.3366564" lon="6.9473551"/><trkpt lat="50.3362364" lon="6.9460121"/><trkpt lat="50.3360583" lon="6.9456027"/><trkpt lat="50.3357665" lon="6.945177"/><trkpt lat="50.3353295" lon="6.9445287"/><trkpt lat="50.3352842" lon="6.9444586"/><trkpt lat="50.3352414" lon="6.9443925"/><trkpt lat="50.335207" lon="6.9443467"/><trkpt lat="50.3351845" lon="6.9443125"/><trkpt lat="50.3353145" lon="6.9440908"/><trkpt lat="50.3347945" lon="6.942196"/><trkpt lat="50.3344821" lon="6.9410906"/><trkpt lat="50.3342448" lon="6.9402507"/><trkpt lat="50.3341956" lon="6.9402888"/><trkpt lat="50.3341897" lon="6.9408904"/><trkpt lat="50.3340452" lon="6.9415512"/><trkpt lat="50.33389" lon="6.9419234"/><trkpt lat="50.3333537" lon="6.9427323"/><trkpt lat="50.3339953" lon="6.9436762"/><trkpt lat="50.333958" lon="6.9437345"/><trkpt lat="50.3339185" lon="6.943796"/><trkpt lat="50.3337925" lon="6.9439989"/><trkpt lat="50.333965" lon="6.944386"/></trkseg></trk><trk><name>Offroad-Park am Nürburgring</name><desc>leisure=pitch
+name=Offroad-Park am Nürburgring
+sport=motor
+surface=dirt</desc><link href="http://osm.org/browse/way/46569936"/><trkseg><trkpt lat="50.3442332" lon="6.9938637"/><trkpt lat="50.3444523" lon="6.9930992"/><trkpt lat="50.3454313" lon="6.9921792"/><trkpt lat="50.3460222" lon="6.9913966"/><trkpt lat="50.3463351" lon="6.9905646"/><trkpt lat="50.3461278" lon="6.9899817"/><trkpt lat="50.3457363" lon="6.9893883"/><trkpt lat="50.3453364" lon="6.9892852"/><trkpt lat="50.3447338" lon="6.9898088"/><trkpt lat="50.3446915" lon="6.9902681"/><trkpt lat="50.3446143" lon="6.9903231"/><trkpt lat="50.3432905" lon="6.9902495"/><trkpt lat="50.3432846" lon="6.9899487"/><trkpt lat="50.3431873" lon="6.9894585"/><trkpt lat="50.3430777" lon="6.9893271"/><trkpt lat="50.3428723" lon="6.9892895"/><trkpt lat="50.3427251" lon="6.9893539"/><trkpt lat="50.3426344" lon="6.9894934"/><trkpt lat="50.342586" lon="6.9897102"/><trkpt lat="50.3425899" lon="6.9901398"/><trkpt lat="50.3426412" lon="6.9905877"/><trkpt lat="50.3427028" lon="6.9908559"/><trkpt lat="50.3428017" lon="6.9912659"/><trkpt lat="50.3428226" lon="6.9918176"/><trkpt lat="50.3429134" lon="6.9922571"/><trkpt lat="50.3434133" lon="6.9932133"/><trkpt lat="50.3431739" lon="6.9934946"/><trkpt lat="50.3431611" lon="6.9940705"/><trkpt lat="50.3435287" lon="6.9952089"/><trkpt lat="50.3440825" lon="6.9944108"/><trkpt lat="50.3442332" lon="6.9938637"/></trkseg></trk><trk><name>Nürburgring</name><desc>addr:street=Otto-Flimm-Straße
+alt_name:zh=纽博格林赛道
+check_date=2026-09-27
+email=info@nuerburgring.de
+landuse=raceway
+leisure=sports_centre
+name=Nürburgring
+name:en=Nürburgring
+name:ko=뉘르부르크링
+name:zh=纽博格林
+operator=Nürburgring 1927 GmbH &amp; Co. KG
+phone=+492691 302 630
+sport=motor
+toilets:wheelchair=yes
+tourism=attraction
+website=https://www.nuerburgring.de/
+wheelchair=yes
+wikidata=Q152207
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/368614733"/><trkseg><trkpt lat="50.3388387" lon="6.9491845"/><trkpt lat="50.3389616" lon="6.9490366"/><trkpt lat="50.3385289" lon="6.9486068"/><trkpt lat="50.33825" lon="6.9481863"/><trkpt lat="50.3381082" lon="6.9477843"/><trkpt lat="50.3379537" lon="6.9473644"/><trkpt lat="50.3378005" lon="6.9470535"/><trkpt lat="50.3372802" lon="6.9460805"/><trkpt lat="50.3371441" lon="6.9458051"/><trkpt lat="50.3370009" lon="6.9453741"/><trkpt lat="50.3368879" lon="6.9450008"/><trkpt lat="50.3368404" lon="6.9446144"/><trkpt lat="50.336895" lon="6.9441277"/><trkpt lat="50.3370562" lon="6.9433364"/><trkpt lat="50.3372388" lon="6.9423816"/><trkpt lat="50.3372459" lon="6.9419469"/><trkpt lat="50.3371226" lon="6.9414825"/><trkpt lat="50.3369566" lon="6.9411036"/><trkpt lat="50.3366911" lon="6.9406949"/><trkpt lat="50.3353584" lon="6.9390528"/><trkpt lat="50.3348936" lon="6.938529"/><trkpt lat="50.334526" lon="6.9380943"/><trkpt lat="50.3342154" lon="6.9375742"/><trkpt lat="50.3334565" lon="6.9359841"/><trkpt lat="50.3332549" lon="6.9356757"/><trkpt lat="50.3330605" lon="6.9354677"/><trkpt lat="50.3328281" lon="6.9353674"/><trkpt lat="50.3325719" lon="6.9353897"/><trkpt lat="50.332247" lon="6.9355346"/><trkpt lat="50.3320455" lon="6.9357612"/><trkpt lat="50.3316731" lon="6.9362925"/><trkpt lat="50.331232" lon="6.9374702"/><trkpt lat="50.3309806" lon="6.9382021"/><trkpt lat="50.3308586" lon="6.9382786"/><trkpt lat="50.3303412" lon="6.9379893"/><trkpt lat="50.3302582" lon="6.9375967"/><trkpt lat="50.329522" lon="6.9372267"/><trkpt lat="50.3292171" lon="6.9369426"/><trkpt lat="50.3290303" lon="6.9365597"/><trkpt lat="50.3289011" lon="6.9362627"/><trkpt lat="50.3286127" lon="6.936125"/><trkpt lat="50.3273682" lon="6.9360605"/><trkpt lat="50.3267666" lon="6.9360002"/><trkpt lat="50.3264397" lon="6.935798"/><trkpt lat="50.3262089" lon="6.9353892"/><trkpt lat="50.3257501" lon="6.9344037"/><trkpt lat="50.3255111" lon="6.9340509"/><trkpt lat="50.3252171" lon="6.933513"/><trkpt lat="50.3249864" lon="6.9330353"/><trkpt lat="50.3248325" lon="6.9328374"/><trkpt lat="50.3246457" lon="6.9327212"/><trkpt lat="50.3243929" lon="6.9326566"/><trkpt lat="50.324088" lon="6.9326867"/><trkpt lat="50.3238627" lon="6.9327427"/><trkpt lat="50.3236209" lon="6.9328804"/><trkpt lat="50.3234149" lon="6.9330654"/><trkpt lat="50.3231978" lon="6.9333279"/><trkpt lat="50.3229753" lon="6.933698"/><trkpt lat="50.3228681" lon="6.9339691"/><trkpt lat="50.3227857" lon="6.9343392"/><trkpt lat="50.3227747" lon="6.934649"/><trkpt lat="50.3228049" lon="6.9348771"/><trkpt lat="50.3228983" lon="6.9350578"/><trkpt lat="50.3231319" lon="6.9351955"/><trkpt lat="50.3234973" lon="6.9354623"/><trkpt lat="50.3245853" lon="6.9365209"/><trkpt lat="50.3257968" lon="6.9382809"/><trkpt lat="50.3259562" lon="6.9386381"/><trkpt lat="50.3262968" lon="6.9398559"/><trkpt lat="50.3266359" lon="6.9409344"/><trkpt lat="50.3267832" lon="6.941208"/><trkpt lat="50.3270264" lon="6.9414602"/><trkpt lat="50.3272661" lon="6.9416479"/><trkpt lat="50.3275092" lon="6.9416855"/><trkpt lat="50.3277113" lon="6.9415996"/><trkpt lat="50.3279168" lon="6.9413743"/><trkpt lat="50.3281257" lon="6.9408647"/><trkpt lat="50.3284784" lon="6.939942"/><trkpt lat="50.328677" lon="6.9396845"/><trkpt lat="50.328838" lon="6.9396309"/><trkpt lat="50.3291393" lon="6.9396631"/><trkpt lat="50.3298448" lon="6.940044"/><trkpt lat="50.3300006" lon="6.9396194"/><trkpt lat="50.3304171" lon="6.9398265"/><trkpt lat="50.3304666" lon="6.9401111"/><trkpt lat="50.3304342" lon="6.9405606"/><trkpt lat="50.3304266" lon="6.9411864"/><trkpt lat="50.3304571" lon="6.9418152"/><trkpt lat="50.3305788" lon="6.9423696"/><trkpt lat="50.3307234" lon="6.9428047"/><trkpt lat="50.3356284" lon="6.950387"/><trkpt lat="50.3367598" lon="6.9520858"/><trkpt lat="50.3369355" lon="6.9520605"/><trkpt lat="50.3371821" lon="6.9518647"/><trkpt lat="50.3375788" lon="6.9515884"/><trkpt lat="50.3381207" lon="6.9510926"/><trkpt lat="50.3382905" lon="6.951009"/><trkpt lat="50.3384467" lon="6.9509772"/><trkpt lat="50.338454" lon="6.9507247"/><trkpt lat="50.3385548" lon="6.9505173"/><trkpt lat="50.3386165" lon="6.9504732"/><trkpt lat="50.338774" lon="6.9503285"/><trkpt lat="50.3388983" lon="6.9500622"/><trkpt lat="50.3389212" lon="6.9498021"/><trkpt lat="50.3388981" lon="6.9496312"/><trkpt lat="50.338879" lon="6.9496254"/><trkpt lat="50.3388199" lon="6.949361"/><trkpt lat="50.3388237" lon="6.9492876"/><trkpt lat="50.3388362" lon="6.9492045"/><trkpt lat="50.3388387" lon="6.9491845"/></trkseg></trk><trk><name>Anbindung zur Nordschleife</name><desc>access=permissive
+highway=raceway
+name=Anbindung zur Nordschleife
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/26543901"/><trkseg><trkpt lat="50.3377052" lon="6.9491896"/><trkpt lat="50.3377414" lon="6.9493353"/><trkpt lat="50.3377721" lon="6.9494136"/><trkpt lat="50.3378084" lon="6.9494855"/><trkpt lat="50.3378579" lon="6.9495582"/><trkpt lat="50.3379016" lon="6.9496162"/><trkpt lat="50.3379467" lon="6.9496625"/><trkpt lat="50.3379847" lon="6.9496889"/><trkpt lat="50.3380338" lon="6.9497148"/><trkpt lat="50.3380757" lon="6.9497305"/><trkpt lat="50.3381197" lon="6.9497344"/><trkpt lat="50.3381653" lon="6.9497302"/><trkpt lat="50.3382209" lon="6.9497194"/><trkpt lat="50.3382811" lon="6.9496952"/><trkpt lat="50.338346" lon="6.9496604"/><trkpt lat="50.3384123" lon="6.9496195"/></trkseg></trk><trk><name>Anbindung zum GP Kurs</name><desc>access=permissive
+highway=raceway
+name=Anbindung zum GP Kurs
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/27852583"/><trkseg><trkpt lat="50.3377306" lon="6.9512265"/><trkpt lat="50.3376032" lon="6.9509739"/><trkpt lat="50.3368937" lon="6.9497367"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+highway=raceway
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/27852990"/><trkseg><trkpt lat="50.3307543" lon="6.9385106"/><trkpt lat="50.3308986" lon="6.9385824"/><trkpt lat="50.3311087" lon="6.9386844"/><trkpt lat="50.3312513" lon="6.9387536"/><trkpt lat="50.3313107" lon="6.9387735"/><trkpt lat="50.3313429" lon="6.9387825"/><trkpt lat="50.331369" lon="6.9387859"/><trkpt lat="50.3313997" lon="6.9387841"/><trkpt lat="50.3314259" lon="6.9387799"/><trkpt lat="50.3314495" lon="6.9387721"/><trkpt lat="50.3314726" lon="6.9387612"/><trkpt lat="50.3315038" lon="6.9387416"/><trkpt lat="50.3315409" lon="6.9387124"/><trkpt lat="50.3315722" lon="6.9386758"/><trkpt lat="50.3316028" lon="6.9386374"/><trkpt lat="50.331629" lon="6.9385991"/><trkpt lat="50.3316501" lon="6.9385543"/><trkpt lat="50.3316719" lon="6.9384986"/><trkpt lat="50.3316874" lon="6.9384517"/><trkpt lat="50.3317488" lon="6.9382325"/><trkpt lat="50.3321151" lon="6.9369239"/><trkpt lat="50.3321598" lon="6.9367643"/><trkpt lat="50.3321859" lon="6.9366948"/><trkpt lat="50.3322174" lon="6.9366272"/><trkpt lat="50.3322456" lon="6.9365781"/><trkpt lat="50.3322732" lon="6.9365355"/><trkpt lat="50.3323039" lon="6.9364973"/><trkpt lat="50.3323464" lon="6.9364604"/><trkpt lat="50.3323901" lon="6.9364262"/><trkpt lat="50.3324252" lon="6.9364046"/><trkpt lat="50.3324795" lon="6.9363822"/><trkpt lat="50.3325424" lon="6.9363604"/><trkpt lat="50.3326149" lon="6.9363511"/><trkpt lat="50.3326903" lon="6.9363467"/><trkpt lat="50.332746" lon="6.9363507"/><trkpt lat="50.3327971" lon="6.9363595"/><trkpt lat="50.3328396" lon="6.9363762"/><trkpt lat="50.3328765" lon="6.9364006"/><trkpt lat="50.3329156" lon="6.9364313"/><trkpt lat="50.3329659" lon="6.9364805"/><trkpt lat="50.3330228" lon="6.9365422"/><trkpt lat="50.3330557" lon="6.9365848"/><trkpt lat="50.3331809" lon="6.9367467"/><trkpt lat="50.3335104" lon="6.937173"/><trkpt lat="50.3342522" lon="6.9381464"/><trkpt lat="50.3350031" lon="6.9391078"/><trkpt lat="50.335184" lon="6.9393393"/><trkpt lat="50.3352658" lon="6.9394441"/><trkpt lat="50.3353467" lon="6.9395482"/><trkpt lat="50.3354368" lon="6.9396809"/><trkpt lat="50.3355165" lon="6.9398181"/><trkpt lat="50.3355569" lon="6.9398921"/><trkpt lat="50.33559" lon="6.9399709"/><trkpt lat="50.3356274" lon="6.9400713"/><trkpt lat="50.3356726" lon="6.940205"/><trkpt lat="50.3357127" lon="6.9403527"/><trkpt lat="50.3357367" lon="6.9404538"/><trkpt lat="50.3357577" lon="6.9405571"/><trkpt lat="50.3357789" lon="6.9406825"/><trkpt lat="50.3358275" lon="6.9409706"/><trkpt lat="50.3362233" lon="6.9433147"/><trkpt lat="50.3362906" lon="6.9437135"/><trkpt lat="50.3366542" lon="6.9458674"/><trkpt lat="50.3366689" lon="6.9459547"/></trkseg></trk><trk><name>Boxengasse</name><desc>access=permissive
+highway=raceway
+layer=1
+name=Boxengasse
+oneway=yes
+raceway=pitlane
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/30815119"/><trkseg><trkpt lat="50.3373994" lon="6.9471986"/><trkpt lat="50.3374511" lon="6.9478069"/><trkpt lat="50.3374844" lon="6.948178"/><trkpt lat="50.337596" lon="6.9491908"/><trkpt lat="50.3376016" lon="6.9493192"/><trkpt lat="50.3375934" lon="6.9494081"/><trkpt lat="50.337578" lon="6.9494916"/><trkpt lat="50.3375484" lon="6.9495798"/><trkpt lat="50.3375262" lon="6.9496314"/><trkpt lat="50.3374918" lon="6.949686"/><trkpt lat="50.3374561" lon="6.9497254"/><trkpt lat="50.3374056" lon="6.949766"/><trkpt lat="50.3373553" lon="6.9497892"/><trkpt lat="50.3373021" lon="6.9498006"/><trkpt lat="50.3372481" lon="6.9498047"/><trkpt lat="50.3371914" lon="6.9497925"/><trkpt lat="50.3371639" lon="6.9497817"/><trkpt lat="50.3371316" lon="6.949769"/><trkpt lat="50.3370686" lon="6.949714"/><trkpt lat="50.3369847" lon="6.9496038"/><trkpt lat="50.33641" lon="6.9487139"/><trkpt lat="50.3363222" lon="6.9485832"/><trkpt lat="50.3362643" lon="6.9484885"/><trkpt lat="50.3362081" lon="6.9483872"/><trkpt lat="50.3360457" lon="6.9480825"/><trkpt lat="50.3359907" lon="6.947994"/><trkpt lat="50.3359456" lon="6.9479203"/><trkpt lat="50.335907" lon="6.9478682"/><trkpt lat="50.3358363" lon="6.9477934"/><trkpt lat="50.3357617" lon="6.9477033"/><trkpt lat="50.3356905" lon="6.9476071"/><trkpt lat="50.3353042" lon="6.9470162"/><trkpt lat="50.3337383" lon="6.9446128"/><trkpt lat="50.3333825" lon="6.9440458"/><trkpt lat="50.3332447" lon="6.9438375"/><trkpt lat="50.3323892" lon="6.9427476"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>access=permissive
+highway=raceway
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/31009257"/><trkseg><trkpt lat="50.3381036" lon="6.9525902"/><trkpt lat="50.3381438" lon="6.9524611"/><trkpt lat="50.338173" lon="6.9523634"/><trkpt lat="50.3381829" lon="6.952296"/><trkpt lat="50.3381764" lon="6.9522112"/><trkpt lat="50.3381624" lon="6.9521351"/><trkpt lat="50.3381395" lon="6.9520405"/><trkpt lat="50.3381145" lon="6.9519539"/><trkpt lat="50.3380687" lon="6.9518305"/><trkpt lat="50.3379113" lon="6.9514469"/></trkseg></trk><trk><name>Variante 24h-Rennen</name><desc>access=permissive
+highway=raceway
+name=Variante 24h-Rennen
+note=FIXME: Verbindung zur Strecke geschätzt
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/31010602"/><trkseg><trkpt lat="50.3318422" lon="6.9409641"/><trkpt lat="50.3321675" lon="6.9408412"/><trkpt lat="50.3321992" lon="6.9408219"/><trkpt lat="50.3322205" lon="6.9407993"/><trkpt lat="50.332226" lon="6.9407824"/><trkpt lat="50.3322286" lon="6.9407631"/><trkpt lat="50.3322255" lon="6.9407167"/><trkpt lat="50.3322128" lon="6.940661"/><trkpt lat="50.3321923" lon="6.9406019"/><trkpt lat="50.3321645" lon="6.9405328"/><trkpt lat="50.3321441" lon="6.9404853"/><trkpt lat="50.3321132" lon="6.9404135"/><trkpt lat="50.3320787" lon="6.9403421"/><trkpt lat="50.3320388" lon="6.9402732"/><trkpt lat="50.3319858" lon="6.9401959"/><trkpt lat="50.3319126" lon="6.940101"/><trkpt lat="50.3318728" lon="6.9400559"/><trkpt lat="50.3318147" lon="6.9400061"/><trkpt lat="50.331701" lon="6.9399255"/><trkpt lat="50.3316037" lon="6.9398732"/></trkseg></trk><trk><name>Müllenbachschleife</name><desc>highway=raceway
+name=Müllenbachschleife
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/32894541"/><trkseg><trkpt lat="50.3283551" lon="6.9373149"/><trkpt lat="50.3284233" lon="6.9374064"/><trkpt lat="50.3284445" lon="6.9374508"/><trkpt lat="50.3284568" lon="6.9375075"/><trkpt lat="50.3284607" lon="6.9375631"/><trkpt lat="50.3284589" lon="6.9375926"/><trkpt lat="50.3284571" lon="6.9376223"/><trkpt lat="50.3284446" lon="6.9376627"/><trkpt lat="50.328429" lon="6.9376943"/><trkpt lat="50.3284081" lon="6.9377169"/><trkpt lat="50.3283851" lon="6.9377377"/><trkpt lat="50.3283553" lon="6.9377538"/><trkpt lat="50.3280171" lon="6.9379124"/><trkpt lat="50.3280106" lon="6.9379167"/><trkpt lat="50.3279994" lon="6.9379262"/><trkpt lat="50.3279909" lon="6.9379366"/><trkpt lat="50.3279798" lon="6.937952"/><trkpt lat="50.3279558" lon="6.9379919"/><trkpt lat="50.3279373" lon="6.9380387"/><trkpt lat="50.3279234" lon="6.9380986"/><trkpt lat="50.3279213" lon="6.9381502"/><trkpt lat="50.3279251" lon="6.9382207"/><trkpt lat="50.3279381" lon="6.9383198"/><trkpt lat="50.3279561" lon="6.9384219"/><trkpt lat="50.3279788" lon="6.9385197"/><trkpt lat="50.3280036" lon="6.938604"/><trkpt lat="50.3280227" lon="6.9386881"/><trkpt lat="50.3280383" lon="6.9387709"/><trkpt lat="50.3280517" lon="6.938869"/><trkpt lat="50.3280557" lon="6.9389612"/><trkpt lat="50.3280553" lon="6.9390709"/><trkpt lat="50.3280405" lon="6.9392042"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>access=permissive
+bridge=yes
+highway=raceway
+layer=1
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/32894824"/><trkseg><trkpt lat="50.3379113" lon="6.9514469"/><trkpt lat="50.3378069" lon="6.9512209"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>highway=raceway
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/32894825"/><trkseg><trkpt lat="50.3378069" lon="6.9512209"/><trkpt lat="50.3377809" lon="6.9511651"/><trkpt lat="50.3377744" lon="6.951111"/><trkpt lat="50.3377791" lon="6.9510494"/><trkpt lat="50.3377967" lon="6.9509811"/><trkpt lat="50.3378242" lon="6.9509182"/><trkpt lat="50.3378984" lon="6.9507435"/><trkpt lat="50.338413" lon="6.9497719"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>highway=raceway
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/32894842"/><trkseg><trkpt lat="50.3378242" lon="6.9509182"/><trkpt lat="50.3378944" lon="6.9508721"/><trkpt lat="50.3379511" lon="6.9507673"/><trkpt lat="50.3384349" lon="6.9498663"/><trkpt lat="50.3386336" lon="6.9495498"/><trkpt lat="50.3386661" lon="6.9494838"/><trkpt lat="50.3387044" lon="6.9494161"/><trkpt lat="50.3387125" lon="6.9493465"/></trkseg></trk><trk><name>way/41395647</name><desc>access=private
+bridge=yes
+fee=yes
+highway=raceway
+layer=1
+maxspeed=50
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395647"/><trkseg><trkpt lat="50.3768618" lon="6.9499778"/><trkpt lat="50.3769996" lon="6.9501051"/></trkseg></trk><trk><name>Nürburgring Nordschleife</name><desc>access=private
+bridge=yes
+fee=yes
+highway=raceway
+layer=1
+name=Nürburgring Nordschleife
+oneway=yes
+sport=motor
+surface=asphalt
+width=12
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395652"/><trkseg><trkpt lat="50.3526741" lon="6.9831675"/><trkpt lat="50.352546" lon="6.9828358"/></trkseg></trk><trk><name>way/41395668</name><desc>access=private
+bridge=yes
+fee=yes
+highway=raceway
+layer=1
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395668"/><trkseg><trkpt lat="50.3378554" lon="6.9515089"/><trkpt lat="50.337751" lon="6.951275"/></trkseg></trk><trk><name>T13</name><desc>access=private
+fee=yes
+highway=raceway
+name=T13
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395670"/><trkseg><trkpt lat="50.337751" lon="6.951275"/><trkpt lat="50.3377306" lon="6.9512265"/><trkpt lat="50.3377117" lon="6.9511202"/><trkpt lat="50.3377127" lon="6.9510761"/><trkpt lat="50.3377195" lon="6.951023"/><trkpt lat="50.3377353" lon="6.9509513"/><trkpt lat="50.3377605" lon="6.950868"/><trkpt lat="50.3378599" lon="6.9506441"/><trkpt lat="50.338024" lon="6.9503196"/><trkpt lat="50.3382678" lon="6.9498572"/><trkpt lat="50.3384123" lon="6.9496195"/><trkpt lat="50.3385235" lon="6.949453"/><trkpt lat="50.3386769" lon="6.9492416"/><trkpt lat="50.3387732" lon="6.9491256"/></trkseg></trk><trk><name>way/41395673</name><desc>access=private
+bridge=yes
+fee=yes
+highway=raceway
+layer=1
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395673"/><trkseg><trkpt lat="50.3387732" lon="6.9491256"/><trkpt lat="50.3389832" lon="6.9488824"/></trkseg></trk><trk><name>way/41395681</name><desc>access=private
+bridge=yes
+fee=yes
+highway=raceway
+layer=1
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395681"/><trkseg><trkpt lat="50.3425517" lon="6.9302948"/><trkpt lat="50.3428825" lon="6.9295538"/></trkseg></trk><trk><name>Quiddelbacher Höhe</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Quiddelbacher Höhe
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/41395684"/><trkseg><trkpt lat="50.3428825" lon="6.9295538"/><trkpt lat="50.3429788" lon="6.9293534"/><trkpt lat="50.3430844" lon="6.9291604"/><trkpt lat="50.3431988" lon="6.9289692"/><trkpt lat="50.3433293" lon="6.9287777"/><trkpt lat="50.3434911" lon="6.9285681"/><trkpt lat="50.344365" lon="6.9274584"/><trkpt lat="50.3451554" lon="6.9264573"/></trkseg></trk><trk><name>Antoniusbuche</name><desc>access=private
+fee=yes
+highway=raceway
+name=Antoniusbuche
+oneway=yes
+sport=motor
+surface=asphalt
+width=12
+wikipedia=en:Nürburgring</desc><link href="http://osm.org/browse/way/41792406"/><trkseg><trkpt lat="50.3467539" lon="6.9679841"/><trkpt lat="50.3454266" lon="6.9646876"/><trkpt lat="50.3439256" lon="6.9609668"/><trkpt lat="50.3435137" lon="6.9599434"/><trkpt lat="50.3433955" lon="6.9596755"/><trkpt lat="50.3432828" lon="6.9594464"/><trkpt lat="50.3431563" lon="6.9592267"/><trkpt lat="50.3430657" lon="6.9590849"/><trkpt lat="50.3429662" lon="6.958938"/><trkpt lat="50.3423351" lon="6.9581339"/></trkseg></trk><trk><name>Boxengasse</name><desc>highway=raceway
+name=Boxengasse
+note=Boxenzufahrt Schikane
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/46194345"/><trkseg><trkpt lat="50.33641" lon="6.9487139"/><trkpt lat="50.3364006" lon="6.9486631"/><trkpt lat="50.3364017" lon="6.9486368"/><trkpt lat="50.3364068" lon="6.9486073"/><trkpt lat="50.3364217" lon="6.9485766"/><trkpt lat="50.3364331" lon="6.9485419"/><trkpt lat="50.336437" lon="6.9485"/><trkpt lat="50.3364365" lon="6.9484567"/><trkpt lat="50.3364323" lon="6.948424"/><trkpt lat="50.3364209" lon="6.9483875"/><trkpt lat="50.3364035" lon="6.948354"/><trkpt lat="50.3363834" lon="6.9483292"/><trkpt lat="50.336347" lon="6.9482932"/><trkpt lat="50.3360084" lon="6.9479638"/><trkpt lat="50.335907" lon="6.9478682"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>bridge=yes
+highway=raceway
+layer=1
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/199642469"/><trkseg><trkpt lat="50.338821" lon="6.9491855"/><trkpt lat="50.3390341" lon="6.948934"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>highway=raceway
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/199642470"/><trkseg><trkpt lat="50.3390341" lon="6.948934"/><trkpt lat="50.3392558" lon="6.9486935"/><trkpt lat="50.33927" lon="6.948676"/><trkpt lat="50.3392803" lon="6.9486561"/><trkpt lat="50.3392884" lon="6.9486287"/><trkpt lat="50.339294" lon="6.9485942"/><trkpt lat="50.3392977" lon="6.9485581"/><trkpt lat="50.3393013" lon="6.9485242"/><trkpt lat="50.3393066" lon="6.9484959"/><trkpt lat="50.3393143" lon="6.9484622"/></trkseg></trk><trk><name>Exmühle</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Exmühle
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/245166664"/><trkseg><trkpt lat="50.3779313" lon="6.9503746"/><trkpt lat="50.3780933" lon="6.9503624"/><trkpt lat="50.3781799" lon="6.9503725"/><trkpt lat="50.3782354" lon="6.9503922"/><trkpt lat="50.3782856" lon="6.9504282"/><trkpt lat="50.3783241" lon="6.9504692"/><trkpt lat="50.3783665" lon="6.9505327"/><trkpt lat="50.3784116" lon="6.9506232"/><trkpt lat="50.3784506" lon="6.9507301"/><trkpt lat="50.3784834" lon="6.950832"/><trkpt lat="50.3785292" lon="6.9509776"/><trkpt lat="50.3785901" lon="6.9511812"/><trkpt lat="50.3786772" lon="6.9514983"/><trkpt lat="50.3787675" lon="6.951855"/><trkpt lat="50.3788019" lon="6.9519947"/><trkpt lat="50.3789338" lon="6.9525578"/><trkpt lat="50.3790194" lon="6.9529574"/><trkpt lat="50.379087" lon="6.9532793"/><trkpt lat="50.379164" lon="6.9536856"/><trkpt lat="50.3792088" lon="6.9539443"/><trkpt lat="50.3792452" lon="6.9541614"/><trkpt lat="50.379285" lon="6.954435"/><trkpt lat="50.3793788" lon="6.9551295"/></trkseg></trk><trk><name>Karussell</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Karussell
+oneway=yes
+sport=motor
+surface=asphalt;concrete
+width=11
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/414785755"/><trkseg><trkpt lat="50.3722687" lon="6.9859301"/><trkpt lat="50.3722049" lon="6.9857538"/><trkpt lat="50.372163" lon="6.9856637"/><trkpt lat="50.372114" lon="6.9856006"/><trkpt lat="50.3720681" lon="6.9855603"/><trkpt lat="50.3720384" lon="6.9855401"/><trkpt lat="50.3719967" lon="6.985524"/><trkpt lat="50.3719589" lon="6.9855154"/><trkpt lat="50.3718951" lon="6.9855207"/><trkpt lat="50.3718522" lon="6.9855345"/><trkpt lat="50.371815" lon="6.9855543"/><trkpt lat="50.3717852" lon="6.9855797"/><trkpt lat="50.3717554" lon="6.9856112"/><trkpt lat="50.3717188" lon="6.9856611"/><trkpt lat="50.3716972" lon="6.9857004"/><trkpt lat="50.3716785" lon="6.9857426"/><trkpt lat="50.3716646" lon="6.9857847"/><trkpt lat="50.3716527" lon="6.9858327"/><trkpt lat="50.3716403" lon="6.9859229"/><trkpt lat="50.3716377" lon="6.9860131"/><trkpt lat="50.3716438" lon="6.9860932"/><trkpt lat="50.3716599" lon="6.9861704"/><trkpt lat="50.3716801" lon="6.9862365"/><trkpt lat="50.371698" lon="6.9862777"/><trkpt lat="50.3717197" lon="6.9863204"/><trkpt lat="50.3717559" lon="6.9863712"/><trkpt lat="50.3717858" lon="6.9864019"/><trkpt lat="50.3718167" lon="6.9864267"/><trkpt lat="50.3719076" lon="6.9864786"/></trkseg></trk><trk><name>Hohe Acht</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Hohe Acht
+oneway=yes
+sport=motor
+surface=asphalt
+width=8.6
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/414785756"/><trkseg><trkpt lat="50.3719076" lon="6.9864786"/><trkpt lat="50.3720457" lon="6.9865599"/><trkpt lat="50.3721555" lon="6.9866447"/><trkpt lat="50.3722164" lon="6.9867031"/><trkpt lat="50.3722613" lon="6.9867639"/><trkpt lat="50.3723032" lon="6.9868258"/><trkpt lat="50.3723906" lon="6.9869824"/><trkpt lat="50.3726177" lon="6.9874308"/><trkpt lat="50.3726891" lon="6.9875788"/><trkpt lat="50.3727265" lon="6.987671"/><trkpt lat="50.3727664" lon="6.9878063"/><trkpt lat="50.372803" lon="6.9879518"/><trkpt lat="50.3732391" lon="6.990073"/><trkpt lat="50.3732789" lon="6.9903361"/><trkpt lat="50.3733057" lon="6.9906248"/><trkpt lat="50.3733205" lon="6.9908304"/><trkpt lat="50.3733586" lon="6.991353"/><trkpt lat="50.3733696" lon="6.9914688"/><trkpt lat="50.3733902" lon="6.9915993"/><trkpt lat="50.3734091" lon="6.9916719"/><trkpt lat="50.3734279" lon="6.9917266"/><trkpt lat="50.3734622" lon="6.9918192"/><trkpt lat="50.3735044" lon="6.9919117"/><trkpt lat="50.3735921" lon="6.9920894"/><trkpt lat="50.3740057" lon="6.9928938"/><trkpt lat="50.3741" lon="6.9930453"/><trkpt lat="50.3742348" lon="6.993234"/><trkpt lat="50.374325" lon="6.9933403"/><trkpt lat="50.3746954" lon="6.9937282"/><trkpt lat="50.3748275" lon="6.9938518"/><trkpt lat="50.3749009" lon="6.9939001"/><trkpt lat="50.3749502" lon="6.99392"/><trkpt lat="50.3749892" lon="6.9939329"/><trkpt lat="50.3750275" lon="6.9939404"/><trkpt lat="50.3750723" lon="6.993938"/><trkpt lat="50.3751049" lon="6.9939355"/><trkpt lat="50.37515" lon="6.9939285"/><trkpt lat="50.3751999" lon="6.9939189"/><trkpt lat="50.375265" lon="6.9938989"/><trkpt lat="50.3755506" lon="6.9938091"/><trkpt lat="50.3756503" lon="6.9937877"/><trkpt lat="50.3757101" lon="6.9937882"/><trkpt lat="50.3757526" lon="6.9937942"/><trkpt lat="50.3758095" lon="6.9938091"/><trkpt lat="50.3758572" lon="6.993831"/><trkpt lat="50.3759328" lon="6.9938905"/><trkpt lat="50.3759995" lon="6.9939564"/><trkpt lat="50.3762049" lon="6.994172"/><trkpt lat="50.3766241" lon="6.994615"/><trkpt lat="50.3766807" lon="6.9946741"/><trkpt lat="50.3767602" lon="6.994771"/><trkpt lat="50.3768092" lon="6.9948545"/><trkpt lat="50.3768384" lon="6.9949183"/><trkpt lat="50.3768681" lon="6.9949989"/><trkpt lat="50.3768954" lon="6.995089"/><trkpt lat="50.3769172" lon="6.995217"/><trkpt lat="50.3769326" lon="6.9953376"/><trkpt lat="50.3769337" lon="6.9954495"/><trkpt lat="50.3769215" lon="6.9956005"/><trkpt lat="50.376899" lon="6.9957386"/><trkpt lat="50.3768769" lon="6.9958213"/><trkpt lat="50.3768353" lon="6.9959563"/><trkpt lat="50.3766315" lon="6.9965631"/><trkpt lat="50.3765903" lon="6.9967084"/><trkpt lat="50.3765653" lon="6.9968334"/><trkpt lat="50.376542" lon="6.9969753"/><trkpt lat="50.3765219" lon="6.9971197"/><trkpt lat="50.3764762" lon="6.9974813"/><trkpt lat="50.3764515" lon="6.9976607"/><trkpt lat="50.3764224" lon="6.9978341"/></trkseg></trk><trk><name>Breidscheid</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=50
+name=Breidscheid
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683006908"/><trkseg><trkpt lat="50.3769996" lon="6.9501051"/><trkpt lat="50.3771687" lon="6.9502582"/><trkpt lat="50.3773392" lon="6.9503488"/><trkpt lat="50.3774456" lon="6.9503862"/><trkpt lat="50.3775001" lon="6.9503968"/><trkpt lat="50.3775797" lon="6.9504047"/><trkpt lat="50.3776714" lon="6.9504042"/><trkpt lat="50.3777697" lon="6.9503958"/><trkpt lat="50.3779313" lon="6.9503746"/></trkseg></trk><trk><name>Senkenlinks</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Senkenlinks
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.2
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683061804"/><trkseg><trkpt lat="50.3781833" lon="6.9612818"/><trkpt lat="50.3776318" lon="6.9613277"/><trkpt lat="50.3774304" lon="6.9613639"/><trkpt lat="50.3772527" lon="6.9614087"/><trkpt lat="50.3770817" lon="6.9614808"/><trkpt lat="50.3766946" lon="6.9616853"/><trkpt lat="50.3765128" lon="6.9618041"/><trkpt lat="50.3763874" lon="6.9619026"/><trkpt lat="50.3763226" lon="6.961964"/><trkpt lat="50.3762564" lon="6.9620339"/><trkpt lat="50.3760835" lon="6.9622493"/><trkpt lat="50.3758917" lon="6.9625189"/><trkpt lat="50.3757272" lon="6.9627606"/><trkpt lat="50.375644" lon="6.9629028"/><trkpt lat="50.3755388" lon="6.9631254"/><trkpt lat="50.3753319" lon="6.9636168"/><trkpt lat="50.3752138" lon="6.9639005"/><trkpt lat="50.3751522" lon="6.9640965"/><trkpt lat="50.3749779" lon="6.9647568"/><trkpt lat="50.3745754" lon="6.9662788"/><trkpt lat="50.3745093" lon="6.9665454"/><trkpt lat="50.3744759" lon="6.9667454"/><trkpt lat="50.3744549" lon="6.9669605"/><trkpt lat="50.3744486" lon="6.967156"/><trkpt lat="50.3744527" lon="6.9674084"/></trkseg></trk><trk><name>Breidscheid</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=90
+name=Breidscheid
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683061813"/><trkseg><trkpt lat="50.3767588" lon="6.9450772"/><trkpt lat="50.3767773" lon="6.9456287"/><trkpt lat="50.3767987" lon="6.9462454"/><trkpt lat="50.3768173" lon="6.9468351"/><trkpt lat="50.3768252" lon="6.9470665"/><trkpt lat="50.3768283" lon="6.9472465"/><trkpt lat="50.3768248" lon="6.9473404"/><trkpt lat="50.3768195" lon="6.9474339"/><trkpt lat="50.3768117" lon="6.9475204"/><trkpt lat="50.3768013" lon="6.9476114"/><trkpt lat="50.3767882" lon="6.9477074"/><trkpt lat="50.376777" lon="6.9477807"/></trkseg></trk><trk><name>Breidscheid</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=70
+name=Breidscheid
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683061814"/><trkseg><trkpt lat="50.376777" lon="6.9477807"/><trkpt lat="50.3766263" lon="6.9487327"/><trkpt lat="50.3765734" lon="6.9490563"/><trkpt lat="50.3765566" lon="6.949172"/><trkpt lat="50.3765506" lon="6.9492594"/><trkpt lat="50.3765493" lon="6.9493301"/><trkpt lat="50.3765533" lon="6.9494044"/><trkpt lat="50.3765649" lon="6.9494906"/><trkpt lat="50.376586" lon="6.9495765"/><trkpt lat="50.3766136" lon="6.9496563"/><trkpt lat="50.376652" lon="6.949741"/><trkpt lat="50.3766927" lon="6.9498095"/><trkpt lat="50.3767335" lon="6.9498629"/><trkpt lat="50.3768618" lon="6.9499778"/></trkseg></trk><trk><name>way/683303208</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=50
+oneway=yes
+sport=motor
+surface=asphalt
+width=12
+wikipedia=en:Nürburgring</desc><link href="http://osm.org/browse/way/683303208"/><trkseg><trkpt lat="50.3473197" lon="6.9693923"/><trkpt lat="50.3467539" lon="6.9679841"/></trkseg></trk><trk><name>way/683303209</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=70
+oneway=yes
+sport=motor
+surface=asphalt
+width=12
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683303209"/><trkseg><trkpt lat="50.3478978" lon="6.9708251"/><trkpt lat="50.3473197" lon="6.9693923"/></trkseg></trk><trk><name>way/683303210</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=90
+oneway=yes
+sport=motor
+surface=asphalt
+width=12
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683303210"/><trkseg><trkpt lat="50.3490869" lon="6.9738476"/><trkpt lat="50.3478978" lon="6.9708251"/></trkseg></trk><trk><name>Döttinger Höhe</name><desc>access=private
+fee=yes
+highway=raceway
+name=Döttinger Höhe
+oneway=yes
+sport=motor
+surface=asphalt
+width=12
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/683303211"/><trkseg><trkpt lat="50.352546" lon="6.9828358"/><trkpt lat="50.3500245" lon="6.9762865"/><trkpt lat="50.3490869" lon="6.9738476"/></trkseg></trk><trk><name>Boxengasse an T13</name><desc>highway=raceway
+name=Boxengasse an T13
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/710354617"/><trkseg><trkpt lat="50.338413" lon="6.9497719"/><trkpt lat="50.3387125" lon="6.9493465"/><trkpt lat="50.3387328" lon="6.9492974"/><trkpt lat="50.338821" lon="6.9491855"/></trkseg></trk><trk><name>Boxengasse</name><desc>access=permissive
+highway=raceway
+layer=1
+name=Boxengasse
+oneway=yes
+raceway=pitlane
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/769107218"/><trkseg><trkpt lat="50.3377306" lon="6.9512265"/><trkpt lat="50.3376382" lon="6.9509735"/><trkpt lat="50.3371972" lon="6.9499828"/><trkpt lat="50.3371628" lon="6.9499088"/><trkpt lat="50.3369847" lon="6.9496038"/></trkseg></trk><trk><name>Tiergarten</name><desc>access=private
+fee=yes
+highway=raceway
+name=Tiergarten
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.5
+wikipedia=en:Nürburgring</desc><link href="http://osm.org/browse/way/799394494"/><trkseg><trkpt lat="50.3420393" lon="6.9577543"/><trkpt lat="50.3408439" lon="6.9562155"/><trkpt lat="50.3407127" lon="6.95607"/><trkpt lat="50.340609" lon="6.9559632"/><trkpt lat="50.340512" lon="6.9558687"/><trkpt lat="50.3403983" lon="6.9557741"/><trkpt lat="50.3402998" lon="6.9557025"/><trkpt lat="50.3401093" lon="6.9555655"/><trkpt lat="50.3399202" lon="6.9554198"/></trkseg></trk><trk><name>Hohenrain</name><desc>access=private
+fee=yes
+highway=raceway
+name=Hohenrain
+oneway=yes
+sport=motor
+surface=asphalt
+width=7
+wikipedia=en:Nürburgring</desc><link href="http://osm.org/browse/way/799394495"/><trkseg><trkpt lat="50.3399202" lon="6.9554198"/><trkpt lat="50.3398208" lon="6.9553238"/><trkpt lat="50.3397132" lon="6.9552085"/><trkpt lat="50.3396417" lon="6.9551178"/><trkpt lat="50.339538" lon="6.9549679"/><trkpt lat="50.3388844" lon="6.9539043"/><trkpt lat="50.3388295" lon="6.9538264"/><trkpt lat="50.3387681" lon="6.9537561"/><trkpt lat="50.3387027" lon="6.9536864"/><trkpt lat="50.3386368" lon="6.9536282"/><trkpt lat="50.3385702" lon="6.9535757"/><trkpt lat="50.3384709" lon="6.9535091"/><trkpt lat="50.3383564" lon="6.9534466"/><trkpt lat="50.3383033" lon="6.9534156"/><trkpt lat="50.338242" lon="6.9533653"/><trkpt lat="50.3381976" lon="6.9533255"/><trkpt lat="50.3381535" lon="6.9532628"/><trkpt lat="50.3381137" lon="6.9531754"/><trkpt lat="50.3380852" lon="6.9530677"/><trkpt lat="50.3380744" lon="6.9529567"/><trkpt lat="50.338075" lon="6.9528681"/><trkpt lat="50.338079" lon="6.9527797"/><trkpt lat="50.3381036" lon="6.9525902"/><trkpt lat="50.338124" lon="6.9523733"/><trkpt lat="50.3381207" lon="6.9522829"/><trkpt lat="50.3381102" lon="6.9521927"/><trkpt lat="50.3380819" lon="6.9520729"/><trkpt lat="50.3380487" lon="6.9519733"/><trkpt lat="50.3378554" lon="6.9515089"/></trkseg></trk><trk><name>Hatzenbach</name><desc>access=private
+fee=yes
+highway=raceway
+name=Hatzenbach
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.7
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394496"/><trkseg><trkpt lat="50.3378552" lon="6.9425737"/><trkpt lat="50.3378964" lon="6.9424368"/><trkpt lat="50.3379549" lon="6.9421846"/><trkpt lat="50.3380157" lon="6.941844"/><trkpt lat="50.3380496" lon="6.9415492"/><trkpt lat="50.3380658" lon="6.9413132"/><trkpt lat="50.3381309" lon="6.9400722"/><trkpt lat="50.3381323" lon="6.9399485"/><trkpt lat="50.3381263" lon="6.9398513"/><trkpt lat="50.3381136" lon="6.9397653"/><trkpt lat="50.3380906" lon="6.9396753"/><trkpt lat="50.3379842" lon="6.9393239"/><trkpt lat="50.3379456" lon="6.9391507"/><trkpt lat="50.3379337" lon="6.9390216"/><trkpt lat="50.3379374" lon="6.9389073"/><trkpt lat="50.3379504" lon="6.9388018"/><trkpt lat="50.3379878" lon="6.9386498"/><trkpt lat="50.3380322" lon="6.9385453"/><trkpt lat="50.3381112" lon="6.938407"/><trkpt lat="50.3381931" lon="6.9382591"/><trkpt lat="50.3382883" lon="6.9381017"/><trkpt lat="50.3383435" lon="6.9380255"/><trkpt lat="50.3383942" lon="6.937967"/><trkpt lat="50.3384501" lon="6.9379093"/><trkpt lat="50.3385113" lon="6.9378549"/><trkpt lat="50.3385782" lon="6.9378059"/><trkpt lat="50.3387776" lon="6.9376799"/><trkpt lat="50.338898" lon="6.9375762"/><trkpt lat="50.3389569" lon="6.9375013"/><trkpt lat="50.3390061" lon="6.9374185"/><trkpt lat="50.3390498" lon="6.9373233"/><trkpt lat="50.3392313" lon="6.9368694"/><trkpt lat="50.3392874" lon="6.9367447"/><trkpt lat="50.3393262" lon="6.9366799"/><trkpt lat="50.3393707" lon="6.9366193"/><trkpt lat="50.3394391" lon="6.9365551"/><trkpt lat="50.3395032" lon="6.9365112"/><trkpt lat="50.3395809" lon="6.9364737"/><trkpt lat="50.3397556" lon="6.9364028"/><trkpt lat="50.3398391" lon="6.9363398"/><trkpt lat="50.3398927" lon="6.9362735"/><trkpt lat="50.3399294" lon="6.9362103"/><trkpt lat="50.3399589" lon="6.9361394"/><trkpt lat="50.3399823" lon="6.9360605"/><trkpt lat="50.340003" lon="6.9359497"/></trkseg></trk><trk><name>Hocheichen</name><desc>access=private
+fee=yes
+highway=raceway
+name=Hocheichen
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.6
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394497"/><trkseg><trkpt lat="50.340003" lon="6.9359497"/><trkpt lat="50.3401914" lon="6.9341307"/><trkpt lat="50.340213" lon="6.9339946"/><trkpt lat="50.3402372" lon="6.9339092"/><trkpt lat="50.340274" lon="6.9338072"/><trkpt lat="50.3403215" lon="6.9337211"/><trkpt lat="50.3403501" lon="6.9336818"/><trkpt lat="50.3403926" lon="6.9336298"/><trkpt lat="50.3404384" lon="6.9335841"/><trkpt lat="50.3404854" lon="6.9335457"/><trkpt lat="50.3405348" lon="6.9335199"/><trkpt lat="50.3405774" lon="6.933507"/><trkpt lat="50.3406417" lon="6.9334978"/><trkpt lat="50.3407896" lon="6.9334879"/><trkpt lat="50.3409375" lon="6.9334604"/><trkpt lat="50.3410153" lon="6.9334324"/><trkpt lat="50.3410554" lon="6.9334092"/><trkpt lat="50.3411648" lon="6.9333227"/><trkpt lat="50.3412295" lon="6.9332421"/><trkpt lat="50.3412759" lon="6.9331695"/><trkpt lat="50.3413213" lon="6.9330873"/><trkpt lat="50.3413696" lon="6.932982"/><trkpt lat="50.3421798" lon="6.9311555"/><trkpt lat="50.3425517" lon="6.9302948"/></trkseg></trk><trk><name>Flugplatz</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Flugplatz
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394498"/><trkseg><trkpt lat="50.3451554" lon="6.9264573"/><trkpt lat="50.3453806" lon="6.9261688"/><trkpt lat="50.3454649" lon="6.9260815"/><trkpt lat="50.3455173" lon="6.9260372"/><trkpt lat="50.3455827" lon="6.9259892"/><trkpt lat="50.3456769" lon="6.9259449"/><trkpt lat="50.3457699" lon="6.9259162"/><trkpt lat="50.3458963" lon="6.9259058"/><trkpt lat="50.3464999" lon="6.9258173"/><trkpt lat="50.3466263" lon="6.9258229"/><trkpt lat="50.3466946" lon="6.9258378"/><trkpt lat="50.3467818" lon="6.9258729"/><trkpt lat="50.34685" lon="6.9259058"/><trkpt lat="50.3469505" lon="6.9259703"/><trkpt lat="50.347712" lon="6.9264776"/><trkpt lat="50.3479031" lon="6.9265864"/><trkpt lat="50.3480198" lon="6.9266375"/><trkpt lat="50.3481272" lon="6.9266723"/><trkpt lat="50.3482964" lon="6.92671"/><trkpt lat="50.3488714" lon="6.9268463"/><trkpt lat="50.3490635" lon="6.9269088"/><trkpt lat="50.3492061" lon="6.9269373"/><trkpt lat="50.3493604" lon="6.926953"/><trkpt lat="50.3494568" lon="6.926965"/><trkpt lat="50.3495557" lon="6.9269758"/><trkpt lat="50.3497119" lon="6.9269876"/><trkpt lat="50.3498747" lon="6.9269788"/><trkpt lat="50.3500629" lon="6.926951"/><trkpt lat="50.350568" lon="6.9268861"/><trkpt lat="50.3508198" lon="6.9268366"/><trkpt lat="50.351027" lon="6.9268148"/><trkpt lat="50.3511836" lon="6.9267751"/></trkseg></trk><trk><name>Schwedenkreuz</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Schwedenkreuz
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394499"/><trkseg><trkpt lat="50.3511836" lon="6.9267751"/><trkpt lat="50.3514207" lon="6.9267166"/><trkpt lat="50.3516258" lon="6.9266446"/><trkpt lat="50.3518442" lon="6.9265521"/><trkpt lat="50.3520617" lon="6.9264636"/><trkpt lat="50.3522085" lon="6.9263843"/><trkpt lat="50.3524148" lon="6.9262719"/><trkpt lat="50.3528903" lon="6.9259552"/><trkpt lat="50.3530929" lon="6.9258059"/><trkpt lat="50.353344" lon="6.9256267"/><trkpt lat="50.3538457" lon="6.9252582"/><trkpt lat="50.3540589" lon="6.9251218"/><trkpt lat="50.3545279" lon="6.9248292"/><trkpt lat="50.3548164" lon="6.9246483"/><trkpt lat="50.3550213" lon="6.9245212"/><trkpt lat="50.3554158" lon="6.9242833"/><trkpt lat="50.3555447" lon="6.9241979"/><trkpt lat="50.3556528" lon="6.924118"/><trkpt lat="50.355785" lon="6.9240161"/><trkpt lat="50.3559361" lon="6.9238758"/><trkpt lat="50.3561146" lon="6.9236776"/><trkpt lat="50.3562218" lon="6.9235414"/><trkpt lat="50.3563301" lon="6.9233907"/><trkpt lat="50.3564759" lon="6.9231589"/><trkpt lat="50.3566851" lon="6.9227554"/><trkpt lat="50.3567291" lon="6.9226446"/><trkpt lat="50.3567984" lon="6.9224703"/><trkpt lat="50.3568596" lon="6.9222978"/><trkpt lat="50.356918" lon="6.9221102"/><trkpt lat="50.3569869" lon="6.9218753"/></trkseg></trk><trk><name>Aremberg</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Aremberg
+oneway=yes
+sport=motor
+surface=asphalt
+width=8.5
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394500"/><trkseg><trkpt lat="50.3569869" lon="6.9218753"/><trkpt lat="50.357339" lon="6.9206498"/><trkpt lat="50.3573871" lon="6.9204898"/><trkpt lat="50.3574215" lon="6.920398"/><trkpt lat="50.3574769" lon="6.9202839"/><trkpt lat="50.3575358" lon="6.9201928"/><trkpt lat="50.3575864" lon="6.9201354"/><trkpt lat="50.3576358" lon="6.9200908"/><trkpt lat="50.3577225" lon="6.9200398"/><trkpt lat="50.3577942" lon="6.9200173"/><trkpt lat="50.3578824" lon="6.9200091"/><trkpt lat="50.3579393" lon="6.9200174"/><trkpt lat="50.3579939" lon="6.9200294"/><trkpt lat="50.358063" lon="6.920062"/><trkpt lat="50.3581311" lon="6.9201112"/><trkpt lat="50.3581975" lon="6.9201767"/><trkpt lat="50.35826" lon="6.920264"/><trkpt lat="50.358326" lon="6.9203826"/><trkpt lat="50.3583743" lon="6.9205116"/><trkpt lat="50.3584196" lon="6.9206661"/><trkpt lat="50.3586738" lon="6.9216438"/><trkpt lat="50.3588445" lon="6.9222981"/></trkseg></trk><trk><name>Fuchsröhre</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Fuchsröhre
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394501"/><trkseg><trkpt lat="50.3588445" lon="6.9222981"/><trkpt lat="50.3590202" lon="6.9229514"/><trkpt lat="50.359197" lon="6.9235284"/><trkpt lat="50.3592983" lon="6.9237932"/><trkpt lat="50.3593836" lon="6.9239836"/><trkpt lat="50.3595875" lon="6.9243022"/><trkpt lat="50.3596887" lon="6.9244765"/><trkpt lat="50.3597918" lon="6.9246582"/><trkpt lat="50.35987" lon="6.9248197"/><trkpt lat="50.3599408" lon="6.9249923"/><trkpt lat="50.3600251" lon="6.9252031"/><trkpt lat="50.3601691" lon="6.925549"/><trkpt lat="50.3602625" lon="6.9257262"/><trkpt lat="50.3604294" lon="6.9259962"/><trkpt lat="50.3611742" lon="6.9270943"/><trkpt lat="50.3613881" lon="6.9274385"/><trkpt lat="50.3615457" lon="6.9277273"/><trkpt lat="50.3617002" lon="6.9280404"/><trkpt lat="50.3619039" lon="6.9284265"/><trkpt lat="50.3620536" lon="6.9286755"/><trkpt lat="50.3623205" lon="6.9290531"/><trkpt lat="50.3624846" lon="6.9292588"/><trkpt lat="50.3627466" lon="6.9295174"/><trkpt lat="50.3629459" lon="6.9296587"/><trkpt lat="50.3632478" lon="6.9298513"/><trkpt lat="50.363643" lon="6.9301003"/><trkpt lat="50.3637835" lon="6.9301944"/><trkpt lat="50.3640158" lon="6.9303471"/><trkpt lat="50.3640744" lon="6.9303796"/><trkpt lat="50.3641411" lon="6.9304066"/><trkpt lat="50.3642155" lon="6.9304239"/><trkpt lat="50.364269" lon="6.9304248"/></trkseg></trk><trk><name>Adenauer Forst</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Adenauer Forst
+oneway=yes
+sport=motor
+surface=asphalt
+width=8.5
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394502"/><trkseg><trkpt lat="50.364269" lon="6.9304248"/><trkpt lat="50.3651036" lon="6.9303693"/><trkpt lat="50.3652039" lon="6.9303918"/><trkpt lat="50.3652782" lon="6.9304231"/><trkpt lat="50.3653494" lon="6.930464"/><trkpt lat="50.3654282" lon="6.9305254"/><trkpt lat="50.3655136" lon="6.9306133"/><trkpt lat="50.3655937" lon="6.9307336"/><trkpt lat="50.3656556" lon="6.9308645"/><trkpt lat="50.3656926" lon="6.9309604"/><trkpt lat="50.3657989" lon="6.9312191"/><trkpt lat="50.3658441" lon="6.931316"/><trkpt lat="50.3658922" lon="6.9313914"/><trkpt lat="50.3659453" lon="6.9314524"/><trkpt lat="50.3660073" lon="6.9315088"/><trkpt lat="50.3660918" lon="6.9315687"/><trkpt lat="50.3661673" lon="6.9316145"/><trkpt lat="50.3662466" lon="6.9316494"/><trkpt lat="50.3663217" lon="6.9316499"/><trkpt lat="50.3663759" lon="6.9316273"/><trkpt lat="50.3664326" lon="6.9315847"/><trkpt lat="50.3664881" lon="6.9315194"/><trkpt lat="50.3665381" lon="6.9314422"/><trkpt lat="50.3666015" lon="6.9313439"/><trkpt lat="50.3666455" lon="6.9312899"/><trkpt lat="50.3667101" lon="6.9312382"/><trkpt lat="50.3667689" lon="6.9312112"/><trkpt lat="50.3668377" lon="6.9311996"/><trkpt lat="50.3669047" lon="6.9312085"/><trkpt lat="50.366962" lon="6.9312263"/><trkpt lat="50.3670268" lon="6.9312706"/><trkpt lat="50.367081" lon="6.931333"/><trkpt lat="50.367131" lon="6.9314038"/><trkpt lat="50.3672939" lon="6.9316566"/><trkpt lat="50.3674604" lon="6.9319367"/><trkpt lat="50.3675983" lon="6.9321997"/><trkpt lat="50.3679011" lon="6.9328337"/></trkseg></trk><trk><name>Metzgesfeld</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Metzgesfeld
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394503"/><trkseg><trkpt lat="50.3679011" lon="6.9328337"/><trkpt lat="50.3681664" lon="6.9333875"/><trkpt lat="50.3682366" lon="6.9335179"/><trkpt lat="50.3683198" lon="6.9336565"/><trkpt lat="50.3684889" lon="6.9338949"/><trkpt lat="50.3690121" lon="6.9345979"/><trkpt lat="50.3691952" lon="6.9348776"/><trkpt lat="50.3695641" lon="6.9354901"/><trkpt lat="50.3699443" lon="6.9361113"/><trkpt lat="50.370149" lon="6.9364404"/><trkpt lat="50.3702299" lon="6.9365545"/><trkpt lat="50.3703069" lon="6.936651"/><trkpt lat="50.3709831" lon="6.9373993"/><trkpt lat="50.3710844" lon="6.9374975"/><trkpt lat="50.3711671" lon="6.9375636"/><trkpt lat="50.3712316" lon="6.9376049"/><trkpt lat="50.3713213" lon="6.9376537"/><trkpt lat="50.3714125" lon="6.9376874"/><trkpt lat="50.3714943" lon="6.9377112"/><trkpt lat="50.3715873" lon="6.9377226"/><trkpt lat="50.3716596" lon="6.9377249"/><trkpt lat="50.3717375" lon="6.9377163"/><trkpt lat="50.3718137" lon="6.9377006"/><trkpt lat="50.3718823" lon="6.937678"/><trkpt lat="50.3719546" lon="6.9376517"/><trkpt lat="50.3724741" lon="6.9374454"/><trkpt lat="50.3726569" lon="6.9373743"/><trkpt lat="50.3728038" lon="6.9373249"/><trkpt lat="50.3730133" lon="6.9372307"/></trkseg></trk><trk><name>Kallenhard</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Kallenhard
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394504"/><trkseg><trkpt lat="50.3730133" lon="6.9372307"/><trkpt lat="50.3730619" lon="6.9371989"/><trkpt lat="50.3731022" lon="6.9371618"/><trkpt lat="50.373141" lon="6.9371225"/><trkpt lat="50.3731759" lon="6.9370729"/><trkpt lat="50.373202" lon="6.9370272"/><trkpt lat="50.3732289" lon="6.9369729"/><trkpt lat="50.3732522" lon="6.9369066"/><trkpt lat="50.3732703" lon="6.9368542"/><trkpt lat="50.3732896" lon="6.9367779"/><trkpt lat="50.3733039" lon="6.9366985"/><trkpt lat="50.3733146" lon="6.936609"/><trkpt lat="50.3733164" lon="6.9365179"/><trkpt lat="50.3733138" lon="6.9363973"/><trkpt lat="50.37331" lon="6.9362843"/><trkpt lat="50.3733008" lon="6.9360554"/><trkpt lat="50.3732967" lon="6.9359439"/><trkpt lat="50.373298" lon="6.9358425"/><trkpt lat="50.3733058" lon="6.9357647"/><trkpt lat="50.373318" lon="6.935682"/><trkpt lat="50.3733327" lon="6.9356132"/><trkpt lat="50.3733486" lon="6.9355579"/><trkpt lat="50.3733719" lon="6.9354869"/><trkpt lat="50.3734016" lon="6.9354048"/><trkpt lat="50.373635" lon="6.9347837"/><trkpt lat="50.3737188" lon="6.9345933"/><trkpt lat="50.3740316" lon="6.9339379"/><trkpt lat="50.3741004" lon="6.9338109"/><trkpt lat="50.374153" lon="6.9337375"/><trkpt lat="50.3741946" lon="6.933698"/><trkpt lat="50.3742381" lon="6.933672"/><trkpt lat="50.3742799" lon="6.9336456"/><trkpt lat="50.3743179" lon="6.9336281"/><trkpt lat="50.3743548" lon="6.9336219"/><trkpt lat="50.3743898" lon="6.9336186"/><trkpt lat="50.3744327" lon="6.9336215"/><trkpt lat="50.3744736" lon="6.9336274"/><trkpt lat="50.3745521" lon="6.9336552"/><trkpt lat="50.3745996" lon="6.9336893"/><trkpt lat="50.3746612" lon="6.9337594"/><trkpt lat="50.3747019" lon="6.933825"/><trkpt lat="50.3747536" lon="6.9339349"/><trkpt lat="50.3747957" lon="6.934057"/><trkpt lat="50.3749516" lon="6.9345677"/><trkpt lat="50.3750881" lon="6.9349726"/><trkpt lat="50.3751422" lon="6.9351266"/><trkpt lat="50.3751962" lon="6.9352853"/><trkpt lat="50.375269" lon="6.935473"/><trkpt lat="50.3753265" lon="6.9356083"/><trkpt lat="50.3753605" lon="6.9356828"/><trkpt lat="50.3753929" lon="6.9357498"/></trkseg></trk><trk><name>Spiegelkurve</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Spiegelkurve
+oneway=yes
+sport=motor
+surface=asphalt
+width=10
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394505"/><trkseg><trkpt lat="50.3753929" lon="6.9357498"/><trkpt lat="50.3756001" lon="6.9361361"/><trkpt lat="50.3756806" lon="6.9362828"/><trkpt lat="50.3757481" lon="6.9364006"/><trkpt lat="50.3757924" lon="6.9364718"/><trkpt lat="50.375842" lon="6.9365427"/><trkpt lat="50.3758967" lon="6.9366032"/><trkpt lat="50.3759541" lon="6.9366543"/><trkpt lat="50.3760218" lon="6.9367007"/><trkpt lat="50.376065" lon="6.9367273"/><trkpt lat="50.3761085" lon="6.9367465"/><trkpt lat="50.3761612" lon="6.9367641"/><trkpt lat="50.3762111" lon="6.936771"/><trkpt lat="50.3762179" lon="6.9367719"/><trkpt lat="50.3764242" lon="6.9367891"/><trkpt lat="50.3764788" lon="6.9367958"/><trkpt lat="50.3765339" lon="6.9368148"/><trkpt lat="50.3765833" lon="6.9368339"/><trkpt lat="50.3766296" lon="6.936868"/><trkpt lat="50.3766757" lon="6.9368988"/><trkpt lat="50.3767326" lon="6.9369493"/><trkpt lat="50.3767743" lon="6.9369891"/></trkseg></trk><trk><name>Dreifach-Rechts</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Dreifach-Rechts
+note=englisch "Miss-Hit-Miss" genannt
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394506"/><trkseg><trkpt lat="50.3767743" lon="6.9369891"/><trkpt lat="50.3773586" lon="6.9375474"/><trkpt lat="50.3774115" lon="6.9376044"/><trkpt lat="50.3774647" lon="6.9376633"/><trkpt lat="50.3775082" lon="6.9377225"/><trkpt lat="50.3775506" lon="6.9377836"/><trkpt lat="50.3775825" lon="6.937833"/><trkpt lat="50.3776153" lon="6.9378864"/><trkpt lat="50.3776526" lon="6.9379587"/><trkpt lat="50.3776858" lon="6.9380248"/><trkpt lat="50.3777195" lon="6.9381112"/><trkpt lat="50.3777565" lon="6.9382103"/><trkpt lat="50.3777926" lon="6.9383387"/><trkpt lat="50.3778208" lon="6.9384531"/><trkpt lat="50.3778681" lon="6.9386741"/><trkpt lat="50.377879" lon="6.9387448"/><trkpt lat="50.3778854" lon="6.9388142"/><trkpt lat="50.3778888" lon="6.9388881"/><trkpt lat="50.3778897" lon="6.9389592"/><trkpt lat="50.3778869" lon="6.9390311"/><trkpt lat="50.3778831" lon="6.939093"/><trkpt lat="50.3778521" lon="6.9393639"/><trkpt lat="50.377817" lon="6.9396327"/><trkpt lat="50.3778005" lon="6.9397143"/><trkpt lat="50.3777854" lon="6.9397812"/><trkpt lat="50.3777684" lon="6.9398448"/><trkpt lat="50.377751" lon="6.939903"/><trkpt lat="50.3777301" lon="6.9399644"/><trkpt lat="50.3776993" lon="6.9400501"/><trkpt lat="50.3774515" lon="6.9406717"/><trkpt lat="50.3774057" lon="6.9407741"/></trkseg></trk><trk><name>Wehrseifen</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+name=Wehrseifen
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394507"/><trkseg><trkpt lat="50.3774057" lon="6.9407741"/><trkpt lat="50.3768315" lon="6.9420539"/><trkpt lat="50.3767931" lon="6.9421347"/><trkpt lat="50.3767455" lon="6.9422313"/><trkpt lat="50.376699" lon="6.9423017"/><trkpt lat="50.376663" lon="6.942348"/><trkpt lat="50.3766061" lon="6.9423994"/><trkpt lat="50.3765602" lon="6.9424359"/><trkpt lat="50.3765033" lon="6.9424683"/><trkpt lat="50.3763229" lon="6.9425668"/><trkpt lat="50.3762699" lon="6.9426068"/><trkpt lat="50.3762159" lon="6.9426677"/><trkpt lat="50.3761949" lon="6.9427028"/><trkpt lat="50.3761711" lon="6.9427464"/><trkpt lat="50.3761504" lon="6.9428016"/><trkpt lat="50.3761345" lon="6.9428568"/><trkpt lat="50.3761173" lon="6.9429433"/><trkpt lat="50.3761127" lon="6.942993"/><trkpt lat="50.3761097" lon="6.9430528"/><trkpt lat="50.3761165" lon="6.9431138"/><trkpt lat="50.3761297" lon="6.9431673"/><trkpt lat="50.3761478" lon="6.9432067"/><trkpt lat="50.3761707" lon="6.9432437"/><trkpt lat="50.3762188" lon="6.9433032"/><trkpt lat="50.3762656" lon="6.9433478"/><trkpt lat="50.3764175" lon="6.9434802"/><trkpt lat="50.3764768" lon="6.9435459"/><trkpt lat="50.3765214" lon="6.9436021"/><trkpt lat="50.3765557" lon="6.9436604"/><trkpt lat="50.376581" lon="6.9437105"/><trkpt lat="50.3766062" lon="6.9437757"/><trkpt lat="50.3766328" lon="6.9438564"/><trkpt lat="50.3766541" lon="6.9439394"/><trkpt lat="50.3766707" lon="6.9440273"/><trkpt lat="50.3766857" lon="6.9441302"/><trkpt lat="50.3766992" lon="6.9442456"/><trkpt lat="50.3767073" lon="6.9443381"/><trkpt lat="50.3767244" lon="6.9445261"/><trkpt lat="50.376737" lon="6.9446895"/><trkpt lat="50.3767588" lon="6.9450772"/></trkseg></trk><trk><name>Lauda-Links</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Lauda-Links
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394508"/><trkseg><trkpt lat="50.3793788" lon="6.9551295"/><trkpt lat="50.3796526" lon="6.9571482"/><trkpt lat="50.3796969" lon="6.9573929"/><trkpt lat="50.3797362" lon="6.9575476"/><trkpt lat="50.3797716" lon="6.9576469"/><trkpt lat="50.3798301" lon="6.9577893"/><trkpt lat="50.3799098" lon="6.9579475"/><trkpt lat="50.3807016" lon="6.9596111"/></trkseg></trk><trk><name>Bergwerk</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Bergwerk
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.4
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394509"/><trkseg><trkpt lat="50.3807016" lon="6.9596111"/><trkpt lat="50.3808272" lon="6.9599129"/><trkpt lat="50.3808556" lon="6.9600041"/><trkpt lat="50.3808761" lon="6.9600948"/><trkpt lat="50.3808933" lon="6.9602111"/><trkpt lat="50.3809024" lon="6.9602949"/><trkpt lat="50.3809131" lon="6.9605126"/><trkpt lat="50.3809059" lon="6.9606337"/><trkpt lat="50.3808968" lon="6.9607031"/><trkpt lat="50.3808806" lon="6.9607853"/><trkpt lat="50.3808507" lon="6.9608703"/><trkpt lat="50.3808183" lon="6.9609497"/><trkpt lat="50.3807747" lon="6.9610284"/><trkpt lat="50.3807027" lon="6.9611184"/><trkpt lat="50.3806481" lon="6.9611668"/><trkpt lat="50.3805975" lon="6.9612013"/><trkpt lat="50.3804477" lon="6.9612642"/><trkpt lat="50.380355" lon="6.9612928"/><trkpt lat="50.3801557" lon="6.961356"/><trkpt lat="50.3800376" lon="6.9613733"/><trkpt lat="50.3799142" lon="6.9613802"/><trkpt lat="50.3797924" lon="6.9613652"/><trkpt lat="50.3795267" lon="6.9613297"/><trkpt lat="50.3792408" lon="6.9612881"/><trkpt lat="50.3789693" lon="6.9612526"/><trkpt lat="50.3786852" lon="6.9612428"/><trkpt lat="50.3784537" lon="6.9612546"/><trkpt lat="50.3781833" lon="6.9612818"/></trkseg></trk><trk><name>Kesselchen</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Kesselchen
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394510"/><trkseg><trkpt lat="50.3744527" lon="6.9674084"/><trkpt lat="50.3744921" lon="6.9690789"/><trkpt lat="50.3744883" lon="6.9693936"/><trkpt lat="50.3744533" lon="6.9699311"/><trkpt lat="50.3743769" lon="6.9709749"/><trkpt lat="50.3742845" lon="6.9722114"/><trkpt lat="50.3742499" lon="6.9726817"/><trkpt lat="50.3742117" lon="6.9730141"/><trkpt lat="50.3740579" lon="6.973885"/><trkpt lat="50.3738469" lon="6.9750276"/><trkpt lat="50.3738173" lon="6.9751568"/><trkpt lat="50.3737836" lon="6.9752902"/><trkpt lat="50.3737431" lon="6.9754302"/><trkpt lat="50.3736972" lon="6.9755765"/><trkpt lat="50.3736339" lon="6.9757522"/><trkpt lat="50.3735955" lon="6.9758487"/><trkpt lat="50.3735556" lon="6.975943"/><trkpt lat="50.3734862" lon="6.9760961"/><trkpt lat="50.3734154" lon="6.9762385"/><trkpt lat="50.3731482" lon="6.9767223"/><trkpt lat="50.373062" lon="6.9768907"/><trkpt lat="50.3729772" lon="6.9770698"/><trkpt lat="50.3728896" lon="6.9772742"/><trkpt lat="50.3728085" lon="6.9774917"/><trkpt lat="50.3727069" lon="6.9777995"/></trkseg></trk><trk><name>Mutkurve</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Mutkurve
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394511"/><trkseg><trkpt lat="50.3727069" lon="6.9777995"/><trkpt lat="50.3723983" lon="6.9788332"/><trkpt lat="50.3723021" lon="6.9791899"/><trkpt lat="50.3722862" lon="6.9792601"/><trkpt lat="50.372273" lon="6.9793282"/><trkpt lat="50.3722621" lon="6.979411"/><trkpt lat="50.3722539" lon="6.9794873"/><trkpt lat="50.3722501" lon="6.9795866"/><trkpt lat="50.3722504" lon="6.9796901"/><trkpt lat="50.3722562" lon="6.9798158"/><trkpt lat="50.3722675" lon="6.9799738"/><trkpt lat="50.3723229" lon="6.9804693"/><trkpt lat="50.3723599" lon="6.9806546"/><trkpt lat="50.3724318" lon="6.9808906"/><trkpt lat="50.372513" lon="6.9811346"/><trkpt lat="50.3726665" lon="6.981575"/><trkpt lat="50.3728174" lon="6.9820036"/><trkpt lat="50.3729537" lon="6.9823467"/><trkpt lat="50.3730955" lon="6.9826484"/></trkseg></trk><trk><name>Klostertal</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Klostertal
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394512"/><trkseg><trkpt lat="50.3730955" lon="6.9826484"/><trkpt lat="50.3735391" lon="6.9835504"/><trkpt lat="50.3737749" lon="6.9839726"/><trkpt lat="50.3739009" lon="6.9841767"/><trkpt lat="50.37404" lon="6.9844249"/><trkpt lat="50.3741366" lon="6.9846691"/><trkpt lat="50.3741911" lon="6.9848665"/><trkpt lat="50.3742244" lon="6.9850441"/><trkpt lat="50.3742799" lon="6.98552"/><trkpt lat="50.3744278" lon="6.9869267"/></trkseg></trk><trk><name>Steilstrecke</name><desc>access=private
+fee=yes
+highway=raceway
+lit=no
+maxspeed=none
+name=Steilstrecke
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394513"/><trkseg><trkpt lat="50.3744278" lon="6.9869267"/><trkpt lat="50.374476" lon="6.9875301"/><trkpt lat="50.374509" lon="6.9877746"/><trkpt lat="50.3745749" lon="6.9881177"/><trkpt lat="50.3746399" lon="6.9884966"/><trkpt lat="50.3746581" lon="6.9886615"/><trkpt lat="50.3746593" lon="6.9887235"/><trkpt lat="50.3746557" lon="6.988788"/><trkpt lat="50.3746294" lon="6.9889141"/><trkpt lat="50.3746077" lon="6.988981"/><trkpt lat="50.374586" lon="6.9890352"/><trkpt lat="50.3745537" lon="6.9890981"/><trkpt lat="50.3745198" lon="6.9891508"/><trkpt lat="50.3744809" lon="6.9891983"/><trkpt lat="50.374442" lon="6.9892383"/><trkpt lat="50.3743816" lon="6.9892784"/><trkpt lat="50.374334" lon="6.9892931"/><trkpt lat="50.3743301" lon="6.9892949"/><trkpt lat="50.3742257" lon="6.9893016"/><trkpt lat="50.3741144" lon="6.989279"/><trkpt lat="50.3739997" lon="6.9892332"/><trkpt lat="50.3738894" lon="6.9891532"/><trkpt lat="50.3738167" lon="6.9890714"/><trkpt lat="50.3737438" lon="6.9889521"/><trkpt lat="50.3734333" lon="6.9883673"/><trkpt lat="50.3732609" lon="6.9879967"/><trkpt lat="50.3731759" lon="6.987799"/><trkpt lat="50.3730785" lon="6.9876086"/><trkpt lat="50.3729806" lon="6.9874538"/><trkpt lat="50.3728797" lon="6.9872994"/><trkpt lat="50.3727561" lon="6.9870715"/><trkpt lat="50.3726326" lon="6.9867738"/><trkpt lat="50.3725351" lon="6.986574"/><trkpt lat="50.3724189" lon="6.9863418"/><trkpt lat="50.3723461" lon="6.9861575"/><trkpt lat="50.3722963" lon="6.986014"/><trkpt lat="50.3722687" lon="6.9859301"/></trkseg></trk><trk><name>Wippermann</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Wippermann
+oneway=yes
+sport=motor
+surface=asphalt
+width=8.7
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394514"/><trkseg><trkpt lat="50.3757681" lon="6.9997046"/><trkpt lat="50.3755608" lon="6.9999126"/><trkpt lat="50.3754699" lon="7.000018"/><trkpt lat="50.3753922" lon="7.0001208"/><trkpt lat="50.3753338" lon="7.0002236"/><trkpt lat="50.3752684" lon="7.000371"/><trkpt lat="50.3752175" lon="7.0005208"/><trkpt lat="50.3751715" lon="7.0006809"/><trkpt lat="50.3751288" lon="7.0008434"/><trkpt lat="50.3751007" lon="7.0009795"/><trkpt lat="50.3750906" lon="7.0010475"/><trkpt lat="50.3750855" lon="7.0011181"/><trkpt lat="50.3750821" lon="7.0012784"/><trkpt lat="50.3750738" lon="7.0015668"/><trkpt lat="50.3750579" lon="7.0017318"/><trkpt lat="50.3750444" lon="7.0018146"/><trkpt lat="50.3750309" lon="7.0018821"/><trkpt lat="50.3750152" lon="7.0019346"/><trkpt lat="50.3749978" lon="7.0019845"/><trkpt lat="50.3749604" lon="7.0020698"/><trkpt lat="50.3749204" lon="7.0021412"/><trkpt lat="50.3748663" lon="7.0022343"/><trkpt lat="50.3742036" lon="7.0031452"/></trkseg></trk><trk><name>Hedwigshöhe</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Hedwigshöhe
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394515"/><trkseg><trkpt lat="50.3764224" lon="6.9978341"/><trkpt lat="50.376227" lon="6.9988279"/><trkpt lat="50.3761506" lon="6.9990937"/><trkpt lat="50.3761026" lon="6.9992111"/><trkpt lat="50.376048" lon="6.999324"/><trkpt lat="50.3759777" lon="6.9994479"/><trkpt lat="50.37591" lon="6.9995437"/><trkpt lat="50.37585" lon="6.9996192"/><trkpt lat="50.3757681" lon="6.9997046"/></trkseg></trk><trk><name>Eschbach</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Eschbach
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394516"/><trkseg><trkpt lat="50.3742036" lon="7.0031452"/><trkpt lat="50.3739665" lon="7.0034467"/><trkpt lat="50.3738878" lon="7.0035211"/><trkpt lat="50.3738095" lon="7.0035825"/><trkpt lat="50.3737394" lon="7.0036236"/><trkpt lat="50.3736819" lon="7.0036498"/><trkpt lat="50.3736263" lon="7.0036671"/><trkpt lat="50.3735549" lon="7.0036748"/><trkpt lat="50.3734664" lon="7.0036764"/><trkpt lat="50.3734012" lon="7.003666"/><trkpt lat="50.3733341" lon="7.0036496"/><trkpt lat="50.373283" lon="7.0036337"/><trkpt lat="50.3732114" lon="7.0035955"/><trkpt lat="50.3731595" lon="7.0035628"/><trkpt lat="50.3730883" lon="7.0035072"/><trkpt lat="50.3729013" lon="7.0033565"/><trkpt lat="50.3726325" lon="7.0031652"/><trkpt lat="50.3723985" lon="7.0030378"/><trkpt lat="50.3721751" lon="7.0029244"/><trkpt lat="50.3720379" lon="7.0028568"/><trkpt lat="50.3719424" lon="7.0028194"/><trkpt lat="50.3718849" lon="7.0028009"/><trkpt lat="50.3718201" lon="7.0027918"/><trkpt lat="50.3717877" lon="7.0027922"/><trkpt lat="50.3717394" lon="7.0027973"/><trkpt lat="50.3716867" lon="7.0028147"/><trkpt lat="50.3716442" lon="7.0028339"/><trkpt lat="50.371595" lon="7.0028661"/><trkpt lat="50.3715424" lon="7.0029226"/><trkpt lat="50.3714958" lon="7.0029751"/><trkpt lat="50.3713491" lon="7.0031941"/><trkpt lat="50.371225" lon="7.0033878"/><trkpt lat="50.3711497" lon="7.003549"/><trkpt lat="50.3710682" lon="7.0037715"/><trkpt lat="50.3710297" lon="7.0039391"/><trkpt lat="50.371009" lon="7.0040558"/></trkseg></trk><trk><name>Brünnchen</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Brünnchen
+oneway=yes
+sport=motor
+surface=asphalt
+width=10
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394517"/><trkseg><trkpt lat="50.371009" lon="7.0040558"/><trkpt lat="50.3709818" lon="7.004288"/><trkpt lat="50.3709561" lon="7.0045279"/><trkpt lat="50.3709183" lon="7.0048126"/><trkpt lat="50.3708984" lon="7.0049086"/><trkpt lat="50.3708709" lon="7.0050076"/><trkpt lat="50.3708372" lon="7.0050838"/><trkpt lat="50.3708015" lon="7.0051511"/><trkpt lat="50.3707471" lon="7.0052269"/><trkpt lat="50.3706846" lon="7.0052875"/><trkpt lat="50.3706209" lon="7.0053287"/><trkpt lat="50.370561" lon="7.0053518"/><trkpt lat="50.3696971" lon="7.0054877"/><trkpt lat="50.3692818" lon="7.0055561"/><trkpt lat="50.3692337" lon="7.0055588"/><trkpt lat="50.3691825" lon="7.0055538"/><trkpt lat="50.369117" lon="7.0055367"/><trkpt lat="50.3690684" lon="7.0055175"/><trkpt lat="50.3690264" lon="7.0054916"/><trkpt lat="50.3689842" lon="7.0054549"/><trkpt lat="50.3689191" lon="7.005393"/><trkpt lat="50.3688722" lon="7.0053327"/><trkpt lat="50.368815" lon="7.0052364"/><trkpt lat="50.3687667" lon="7.0051156"/><trkpt lat="50.3687318" lon="7.0049962"/><trkpt lat="50.3687102" lon="7.0048635"/><trkpt lat="50.3686977" lon="7.0046987"/><trkpt lat="50.3686986" lon="7.0044655"/><trkpt lat="50.3687239" lon="7.0035582"/><trkpt lat="50.3687703" lon="7.0028591"/></trkseg></trk><trk><name>Eiskurve</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Eiskurve
+oneway=yes
+sport=motor
+surface=asphalt
+width=10
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394518"/><trkseg><trkpt lat="50.3687703" lon="7.0028591"/><trkpt lat="50.3688122" lon="7.002167"/><trkpt lat="50.3688067" lon="7.0019787"/><trkpt lat="50.3687929" lon="7.001844"/><trkpt lat="50.3687648" lon="7.0017259"/><trkpt lat="50.3687433" lon="7.0016542"/><trkpt lat="50.3687128" lon="7.0015817"/><trkpt lat="50.3686785" lon="7.0015138"/><trkpt lat="50.368641" lon="7.0014583"/><trkpt lat="50.3685953" lon="7.0014081"/><trkpt lat="50.3685479" lon="7.0013619"/><trkpt lat="50.3684923" lon="7.0013265"/><trkpt lat="50.3683107" lon="7.0012584"/><trkpt lat="50.3681955" lon="7.0012051"/><trkpt lat="50.3681166" lon="7.0011666"/><trkpt lat="50.3680433" lon="7.0011121"/><trkpt lat="50.3679763" lon="7.0010495"/></trkseg></trk><trk><name>Pflanzgarten</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Pflanzgarten
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394519"/><trkseg><trkpt lat="50.3679763" lon="7.0010495"/><trkpt lat="50.3678235" lon="7.0008721"/><trkpt lat="50.3673438" lon="7.0002887"/><trkpt lat="50.3671762" lon="7.0000889"/><trkpt lat="50.3671061" lon="7.0000197"/><trkpt lat="50.3670478" lon="6.9999734"/><trkpt lat="50.3667454" lon="6.9997678"/><trkpt lat="50.3664307" lon="6.9995861"/><trkpt lat="50.3663342" lon="6.9995417"/><trkpt lat="50.3662743" lon="6.9995177"/><trkpt lat="50.3661861" lon="6.9994971"/><trkpt lat="50.3660771" lon="6.9994933"/><trkpt lat="50.3660098" lon="6.9995022"/><trkpt lat="50.3659309" lon="6.9995187"/><trkpt lat="50.3655525" lon="6.9995998"/><trkpt lat="50.3653867" lon="6.999627"/><trkpt lat="50.3652547" lon="6.999627"/><trkpt lat="50.3651809" lon="6.9996227"/><trkpt lat="50.3648641" lon="6.9995896"/><trkpt lat="50.3647337" lon="6.9995869"/><trkpt lat="50.3639801" lon="6.9996444"/><trkpt lat="50.3638507" lon="6.9996245"/><trkpt lat="50.3638005" lon="6.9996061"/><trkpt lat="50.3637688" lon="6.9995886"/><trkpt lat="50.3637197" lon="6.9995507"/><trkpt lat="50.3636798" lon="6.9995143"/><trkpt lat="50.3636273" lon="6.9994565"/><trkpt lat="50.3633572" lon="6.9991"/><trkpt lat="50.3632687" lon="6.9989725"/><trkpt lat="50.3632221" lon="6.9988832"/><trkpt lat="50.3631828" lon="6.9988038"/><trkpt lat="50.3631329" lon="6.9986793"/><trkpt lat="50.3630894" lon="6.9985269"/><trkpt lat="50.3630447" lon="6.9983133"/><trkpt lat="50.3629641" lon="6.9977575"/><trkpt lat="50.3628903" lon="6.9973026"/><trkpt lat="50.3628492" lon="6.9971471"/><trkpt lat="50.3627984" lon="6.9970066"/><trkpt lat="50.3627409" lon="6.9968833"/><trkpt lat="50.3626778" lon="6.9967708"/><trkpt lat="50.3625553" lon="6.9965836"/></trkseg></trk><trk><name>Sprunghügel</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Sprunghügel
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394520"/><trkseg><trkpt lat="50.3625553" lon="6.9965836"/><trkpt lat="50.3621613" lon="6.99599"/><trkpt lat="50.3619095" lon="6.9956121"/><trkpt lat="50.3617721" lon="6.9954271"/><trkpt lat="50.3616453" lon="6.995283"/><trkpt lat="50.3614953" lon="6.9951469"/><trkpt lat="50.3606246" lon="6.9945034"/></trkseg></trk><trk><name>Stefan-Bellof-S</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Stefan-Bellof-S
+oneway=yes
+sport=motor
+surface=asphalt
+width=8.7
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394521"/><trkseg><trkpt lat="50.3606246" lon="6.9945034"/><trkpt lat="50.3604988" lon="6.9944072"/><trkpt lat="50.3603811" lon="6.9943059"/><trkpt lat="50.3602553" lon="6.9941716"/><trkpt lat="50.360123" lon="6.9940018"/><trkpt lat="50.3600001" lon="6.9938145"/><trkpt lat="50.3599216" lon="6.9936764"/><trkpt lat="50.3598496" lon="6.9935358"/><trkpt lat="50.3597768" lon="6.9933763"/><trkpt lat="50.3597334" lon="6.993255"/><trkpt lat="50.359698" lon="6.9931312"/><trkpt lat="50.3596288" lon="6.9928801"/><trkpt lat="50.3595856" lon="6.992747"/><trkpt lat="50.3595348" lon="6.9926109"/><trkpt lat="50.3594044" lon="6.9923508"/><trkpt lat="50.35923" lon="6.9920221"/><trkpt lat="50.3591603" lon="6.9918836"/><trkpt lat="50.3590883" lon="6.9917158"/><trkpt lat="50.359018" lon="6.9914972"/><trkpt lat="50.3589771" lon="6.991334"/><trkpt lat="50.3589314" lon="6.991115"/><trkpt lat="50.3588805" lon="6.9907379"/><trkpt lat="50.358856" lon="6.9905072"/><trkpt lat="50.3588202" lon="6.9902334"/><trkpt lat="50.3587585" lon="6.9898518"/><trkpt lat="50.3587252" lon="6.9896648"/><trkpt lat="50.3586806" lon="6.9894549"/></trkseg></trk><trk><name>Schwalbenschwanz</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Schwalbenschwanz
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394522"/><trkseg><trkpt lat="50.3586806" lon="6.9894549"/><trkpt lat="50.3582743" lon="6.9877574"/><trkpt lat="50.3582344" lon="6.9875541"/><trkpt lat="50.3581994" lon="6.9873508"/><trkpt lat="50.3581439" lon="6.9869138"/><trkpt lat="50.3581232" lon="6.9866519"/><trkpt lat="50.3581128" lon="6.9864118"/><trkpt lat="50.358109" lon="6.9861819"/><trkpt lat="50.3581174" lon="6.9860243"/><trkpt lat="50.3581306" lon="6.9859075"/><trkpt lat="50.3581535" lon="6.9857932"/><trkpt lat="50.3581913" lon="6.9856521"/><trkpt lat="50.3582246" lon="6.9855468"/><trkpt lat="50.3582728" lon="6.9854281"/><trkpt lat="50.358355" lon="6.9852638"/><trkpt lat="50.3586129" lon="6.9848127"/><trkpt lat="50.3587091" lon="6.984639"/><trkpt lat="50.3588149" lon="6.9844146"/><trkpt lat="50.3588719" lon="6.9842643"/><trkpt lat="50.3588948" lon="6.9841828"/><trkpt lat="50.3589144" lon="6.9841013"/><trkpt lat="50.3589292" lon="6.9840172"/><trkpt lat="50.3589407" lon="6.9839332"/><trkpt lat="50.3589474" lon="6.9838568"/><trkpt lat="50.358946" lon="6.9837753"/><trkpt lat="50.3589435" lon="6.9837136"/><trkpt lat="50.3589354" lon="6.9836354"/><trkpt lat="50.3589054" lon="6.9834727"/><trkpt lat="50.3588588" lon="6.9833106"/><trkpt lat="50.3588009" lon="6.983146"/></trkseg></trk><trk><name>Mini-Karussell</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Mini-Karussell
+oneway=yes
+sport=motor
+surface=asphalt
+width=10
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394523"/><trkseg><trkpt lat="50.3588009" lon="6.983146"/><trkpt lat="50.3586619" lon="6.9828239"/><trkpt lat="50.3584227" lon="6.9822684"/><trkpt lat="50.3581038" lon="6.9815413"/><trkpt lat="50.3580143" lon="6.9813626"/><trkpt lat="50.3579782" lon="6.9813092"/><trkpt lat="50.3579421" lon="6.9812678"/><trkpt lat="50.357902" lon="6.9812261"/><trkpt lat="50.3578657" lon="6.9811965"/><trkpt lat="50.3578266" lon="6.9811722"/><trkpt lat="50.3577884" lon="6.9811555"/><trkpt lat="50.3577471" lon="6.9811457"/><trkpt lat="50.3577068" lon="6.9811433"/><trkpt lat="50.3576636" lon="6.9811547"/><trkpt lat="50.3576243" lon="6.981172"/><trkpt lat="50.3575772" lon="6.9811985"/><trkpt lat="50.357534" lon="6.9812279"/><trkpt lat="50.357486" lon="6.9812753"/><trkpt lat="50.3574456" lon="6.9813286"/><trkpt lat="50.3572493" lon="6.9815957"/><trkpt lat="50.3571103" lon="6.9818028"/><trkpt lat="50.356995" lon="6.9820006"/><trkpt lat="50.356947" lon="6.9821066"/><trkpt lat="50.356904" lon="6.982205"/><trkpt lat="50.3568259" lon="6.9824247"/><trkpt lat="50.3567373" lon="6.9827319"/><trkpt lat="50.3566472" lon="6.9830823"/></trkseg></trk><trk><name>Galgenkopf</name><desc>access=private
+fee=yes
+highway=raceway
+maxspeed=none
+name=Galgenkopf
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/799394524"/><trkseg><trkpt lat="50.3566472" lon="6.9830823"/><trkpt lat="50.3564391" lon="6.9839792"/><trkpt lat="50.3562338" lon="6.9850029"/><trkpt lat="50.3562016" lon="6.9851507"/><trkpt lat="50.3561681" lon="6.9852577"/><trkpt lat="50.3561333" lon="6.9853328"/><trkpt lat="50.3560985" lon="6.985395"/><trkpt lat="50.3560465" lon="6.9854626"/><trkpt lat="50.3559891" lon="6.9855281"/><trkpt lat="50.3556427" lon="6.9858878"/><trkpt lat="50.3555808" lon="6.9859393"/><trkpt lat="50.3555271" lon="6.9859807"/><trkpt lat="50.3554191" lon="6.986044"/><trkpt lat="50.3548791" lon="6.9862829"/><trkpt lat="50.3547522" lon="6.9863194"/><trkpt lat="50.3546156" lon="6.9863357"/><trkpt lat="50.3545219" lon="6.9863341"/><trkpt lat="50.3544411" lon="6.9863225"/><trkpt lat="50.3543598" lon="6.9863042"/><trkpt lat="50.3542752" lon="6.9862808"/><trkpt lat="50.354191" lon="6.9862494"/><trkpt lat="50.3541198" lon="6.9862103"/><trkpt lat="50.3540089" lon="6.9861386"/><trkpt lat="50.3539268" lon="6.9860726"/><trkpt lat="50.3538538" lon="6.9860017"/><trkpt lat="50.3537712" lon="6.9859117"/><trkpt lat="50.3537121" lon="6.9858347"/><trkpt lat="50.3536417" lon="6.9857352"/><trkpt lat="50.3535843" lon="6.9856425"/><trkpt lat="50.3535246" lon="6.9855332"/><trkpt lat="50.3534631" lon="6.9854013"/><trkpt lat="50.3533926" lon="6.985223"/><trkpt lat="50.3527008" lon="6.9832441"/><trkpt lat="50.3526741" lon="6.9831675"/></trkseg></trk><trk><name>way/820330152</name><desc>access=permissive
+highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820330152"/><trkseg><trkpt lat="50.3283551" lon="6.9373149"/><trkpt lat="50.328693" lon="6.9374846"/></trkseg></trk><trk><name>Michael-Schumacher-S</name><desc>access=permissive
+highway=raceway
+name=Michael-Schumacher-S
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820330153"/><trkseg><trkpt lat="50.3262866" lon="6.9369881"/><trkpt lat="50.3263535" lon="6.937082"/><trkpt lat="50.3264034" lon="6.9371437"/><trkpt lat="50.3264357" lon="6.9371721"/><trkpt lat="50.3264799" lon="6.9372065"/><trkpt lat="50.326534" lon="6.9372389"/><trkpt lat="50.3265882" lon="6.9372679"/><trkpt lat="50.3266531" lon="6.9372978"/><trkpt lat="50.3267215" lon="6.9373243"/><trkpt lat="50.3267949" lon="6.9373428"/><trkpt lat="50.3268814" lon="6.9373513"/><trkpt lat="50.3269974" lon="6.9373459"/><trkpt lat="50.3270789" lon="6.9373312"/><trkpt lat="50.3271496" lon="6.9373085"/><trkpt lat="50.3272736" lon="6.9372462"/><trkpt lat="50.3273828" lon="6.9371913"/><trkpt lat="50.327434" lon="6.937167"/><trkpt lat="50.3275237" lon="6.9371338"/><trkpt lat="50.327596" lon="6.9371115"/><trkpt lat="50.3276504" lon="6.937099"/><trkpt lat="50.3277008" lon="6.9370933"/><trkpt lat="50.32775" lon="6.9370914"/><trkpt lat="50.3278032" lon="6.9370954"/><trkpt lat="50.3278561" lon="6.9371028"/><trkpt lat="50.3279065" lon="6.9371132"/><trkpt lat="50.3279605" lon="6.9371334"/><trkpt lat="50.3280396" lon="6.937163"/><trkpt lat="50.3283551" lon="6.9373149"/></trkseg></trk><trk><name>way/820330154</name><desc>access=permissive
+highway=raceway
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820330154"/><trkseg><trkpt lat="50.3247766" lon="6.9346254"/><trkpt lat="50.3250896" lon="6.9351151"/><trkpt lat="50.3255174" lon="6.9357845"/><trkpt lat="50.325938" lon="6.9364426"/></trkseg></trk><trk><name>Goodyear-Kehre</name><desc>access=permissive
+disused:name=Dunlop-Kehre
+highway=raceway
+name=Goodyear-Kehre
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820330155"/><trkseg><trkpt lat="50.3245881" lon="6.9355947"/><trkpt lat="50.3244687" lon="6.9354892"/><trkpt lat="50.3241955" lon="6.9352479"/><trkpt lat="50.3240947" lon="6.9351454"/><trkpt lat="50.3240523" lon="6.9350919"/><trkpt lat="50.3240119" lon="6.935029"/><trkpt lat="50.3239921" lon="6.9349876"/><trkpt lat="50.3239767" lon="6.934947"/><trkpt lat="50.3239598" lon="6.9348861"/><trkpt lat="50.3239507" lon="6.9348295"/><trkpt lat="50.3239443" lon="6.9347734"/><trkpt lat="50.3239405" lon="6.9347117"/><trkpt lat="50.3239422" lon="6.9346571"/><trkpt lat="50.3239496" lon="6.9346043"/><trkpt lat="50.3239607" lon="6.9345343"/><trkpt lat="50.323978" lon="6.9344576"/><trkpt lat="50.3240019" lon="6.9343853"/><trkpt lat="50.3240205" lon="6.9343397"/><trkpt lat="50.3240352" lon="6.9343086"/><trkpt lat="50.3240544" lon="6.934279"/><trkpt lat="50.3240749" lon="6.9342571"/><trkpt lat="50.3240981" lon="6.9342272"/><trkpt lat="50.3241272" lon="6.9342005"/><trkpt lat="50.3241582" lon="6.9341776"/><trkpt lat="50.324207" lon="6.9341536"/><trkpt lat="50.324249" lon="6.9341425"/><trkpt lat="50.3242873" lon="6.9341335"/><trkpt lat="50.3243384" lon="6.9341334"/><trkpt lat="50.324378" lon="6.9341382"/><trkpt lat="50.3244238" lon="6.9341577"/><trkpt lat="50.3244552" lon="6.9341728"/><trkpt lat="50.3244841" lon="6.9341959"/><trkpt lat="50.3245106" lon="6.9342206"/><trkpt lat="50.3245401" lon="6.9342506"/><trkpt lat="50.3245692" lon="6.9342947"/><trkpt lat="50.3245926" lon="6.9343325"/><trkpt lat="50.3247766" lon="6.9346254"/></trkseg></trk><trk><name>way/820679445</name><desc>access=permissive
+highway=raceway
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820679445"/><trkseg><trkpt lat="50.326378" lon="6.9382473"/><trkpt lat="50.3263081" lon="6.9380909"/><trkpt lat="50.3261072" lon="6.9376838"/><trkpt lat="50.3259967" lon="6.9374752"/><trkpt lat="50.3258547" lon="6.9372177"/><trkpt lat="50.325694" lon="6.9369491"/><trkpt lat="50.325503" lon="6.9366629"/><trkpt lat="50.3254266" lon="6.9365539"/><trkpt lat="50.3252343" lon="6.9363127"/><trkpt lat="50.3250069" lon="6.9360392"/><trkpt lat="50.3249023" lon="6.9359135"/><trkpt lat="50.3247448" lon="6.9357456"/><trkpt lat="50.3245881" lon="6.9355947"/></trkseg></trk><trk><name>Ford-Kurve</name><desc>access=permissive
+highway=raceway
+name=Ford-Kurve
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820679446"/><trkseg><trkpt lat="50.3277903" lon="6.9400154"/><trkpt lat="50.3277351" lon="6.9401944"/><trkpt lat="50.3277143" lon="6.9402455"/><trkpt lat="50.3276812" lon="6.9403075"/><trkpt lat="50.3276433" lon="6.9403707"/><trkpt lat="50.3276174" lon="6.9404067"/><trkpt lat="50.3275896" lon="6.9404372"/><trkpt lat="50.3275572" lon="6.9404605"/><trkpt lat="50.3275221" lon="6.9404762"/><trkpt lat="50.3274736" lon="6.9404871"/><trkpt lat="50.3274306" lon="6.9404895"/><trkpt lat="50.3273868" lon="6.9404881"/><trkpt lat="50.32734" lon="6.9404773"/><trkpt lat="50.3273038" lon="6.9404585"/><trkpt lat="50.3272587" lon="6.9404268"/><trkpt lat="50.3272159" lon="6.9403857"/><trkpt lat="50.3271742" lon="6.940335"/><trkpt lat="50.3271274" lon="6.9402596"/><trkpt lat="50.3271043" lon="6.9402168"/><trkpt lat="50.3270793" lon="6.9401588"/><trkpt lat="50.3270436" lon="6.9400575"/><trkpt lat="50.3269849" lon="6.9398869"/></trkseg></trk><trk><name>way/820679447</name><desc>access=permissive
+highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820679447"/><trkseg><trkpt lat="50.3288192" lon="6.9387353"/><trkpt lat="50.3287591" lon="6.9387061"/><trkpt lat="50.3287023" lon="6.9386881"/><trkpt lat="50.3286277" lon="6.9386736"/><trkpt lat="50.3285574" lon="6.9386699"/><trkpt lat="50.3285103" lon="6.938675"/><trkpt lat="50.3284701" lon="6.938686"/><trkpt lat="50.3284226" lon="6.9387043"/><trkpt lat="50.3283778" lon="6.9387285"/><trkpt lat="50.3283297" lon="6.9387582"/><trkpt lat="50.3282803" lon="6.9387996"/><trkpt lat="50.3282502" lon="6.9388309"/><trkpt lat="50.3282134" lon="6.9388733"/><trkpt lat="50.3281824" lon="6.9389133"/><trkpt lat="50.3281452" lon="6.93897"/><trkpt lat="50.3281127" lon="6.939031"/><trkpt lat="50.328081" lon="6.9390993"/><trkpt lat="50.3280405" lon="6.9392042"/></trkseg></trk><trk><name>way/820679448</name><desc>access=permissive
+highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820679448"/><trkseg><trkpt lat="50.3280405" lon="6.9392042"/><trkpt lat="50.3277903" lon="6.9400154"/></trkseg></trk><trk><name>NGK-Schikane</name><desc>access=permissive
+highway=raceway
+name=NGK-Schikane
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/820679450"/><trkseg><trkpt lat="50.3366689" lon="6.9459547"/><trkpt lat="50.3367187" lon="6.9462482"/><trkpt lat="50.3367345" lon="6.9463205"/><trkpt lat="50.3367541" lon="6.9463721"/><trkpt lat="50.3367756" lon="6.9464126"/><trkpt lat="50.3368009" lon="6.9464493"/><trkpt lat="50.3368289" lon="6.9464826"/><trkpt lat="50.3368675" lon="6.9465169"/><trkpt lat="50.3368996" lon="6.9465376"/><trkpt lat="50.3369564" lon="6.9465668"/><trkpt lat="50.3370793" lon="6.9466352"/><trkpt lat="50.3371157" lon="6.9466591"/><trkpt lat="50.3371559" lon="6.9466926"/><trkpt lat="50.3371907" lon="6.9467241"/><trkpt lat="50.3372148" lon="6.946753"/><trkpt lat="50.3372392" lon="6.9467892"/><trkpt lat="50.3372574" lon="6.9468206"/><trkpt lat="50.3372892" lon="6.9468829"/><trkpt lat="50.3373336" lon="6.9469879"/><trkpt lat="50.3373887" lon="6.9471467"/></trkseg></trk><trk><name>Sabine-Schmitz-Kurve</name><desc>access=private
+fee=yes
+highway=raceway
+name=Sabine-Schmitz-Kurve
+old_name=Nordkehre
+oneway=yes
+sport=motor
+surface=asphalt
+width=9
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1009142894"/><trkseg><trkpt lat="50.3389832" lon="6.9488824"/><trkpt lat="50.3391848" lon="6.9486675"/><trkpt lat="50.339226" lon="6.9486183"/><trkpt lat="50.3392684" lon="6.9485626"/><trkpt lat="50.3392911" lon="6.9485171"/><trkpt lat="50.3393143" lon="6.9484622"/><trkpt lat="50.3393221" lon="6.948436"/><trkpt lat="50.3393299" lon="6.948407"/><trkpt lat="50.3393367" lon="6.9483767"/><trkpt lat="50.3393434" lon="6.9483418"/><trkpt lat="50.3393461" lon="6.9483217"/><trkpt lat="50.3393483" lon="6.948297"/><trkpt lat="50.3393488" lon="6.9482718"/><trkpt lat="50.3393475" lon="6.9482448"/><trkpt lat="50.3393438" lon="6.9482128"/><trkpt lat="50.339339" lon="6.9481884"/><trkpt lat="50.3393316" lon="6.948163"/><trkpt lat="50.339307" lon="6.9480921"/><trkpt lat="50.3392871" lon="6.9480445"/><trkpt lat="50.3392658" lon="6.9480015"/><trkpt lat="50.3392365" lon="6.9479537"/><trkpt lat="50.3391949" lon="6.9478922"/><trkpt lat="50.3391233" lon="6.9478046"/><trkpt lat="50.3390492" lon="6.9477288"/></trkseg></trk><trk><name>Hatzenbogen</name><desc>access=private
+fee=yes
+highway=raceway
+name=Hatzenbogen
+note=ab 01.09.2021 statt Nordkehre: Sabine-Schmitz-Kurve
+oneway=yes
+sport=motor
+surface=asphalt
+width=7.8
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1009142895"/><trkseg><trkpt lat="50.3390492" lon="6.9477288"/><trkpt lat="50.3382658" lon="6.9470826"/><trkpt lat="50.3381818" lon="6.9470009"/><trkpt lat="50.3380961" lon="6.9469035"/><trkpt lat="50.3380043" lon="6.9467715"/><trkpt lat="50.3378736" lon="6.9465452"/><trkpt lat="50.3377813" lon="6.9463414"/><trkpt lat="50.337688" lon="6.9461167"/><trkpt lat="50.3376425" lon="6.9459868"/><trkpt lat="50.337485" lon="6.945473"/><trkpt lat="50.3373742" lon="6.9450709"/><trkpt lat="50.3373435" lon="6.94492"/><trkpt lat="50.3373291" lon="6.9447864"/><trkpt lat="50.3373194" lon="6.9446516"/><trkpt lat="50.3373179" lon="6.9445311"/><trkpt lat="50.3373243" lon="6.9443909"/><trkpt lat="50.3373375" lon="6.944251"/><trkpt lat="50.3373691" lon="6.9440764"/><trkpt lat="50.3374163" lon="6.9439096"/><trkpt lat="50.3378552" lon="6.9425737"/></trkseg></trk><trk><name>Anbindung zur Müllenbachschleife</name><desc>highway=raceway
+name=Anbindung zur Müllenbachschleife
+name:en=connection to Müllenbachschleife
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/1079809244"/><trkseg><trkpt lat="50.3294552" lon="6.9390522"/><trkpt lat="50.3288192" lon="6.9387353"/></trkseg></trk><trk><name>Anbindung zur Sprintstrecke</name><desc>highway=raceway
+name=Anbindung zur Sprintstrecke
+name:en=connection to Sprint course
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/1079809245"/><trkseg><trkpt lat="50.328693" lon="6.9374846"/><trkpt lat="50.3296878" lon="6.9380068"/></trkseg></trk><trk><name>Rallycross circuit turn 8a</name><desc>highway=raceway
+name=Rallycross circuit turn 8a
+oneway=yes
+sport=motor
+surface=gravel</desc><link href="http://osm.org/browse/way/1113008496"/><trkseg><trkpt lat="50.3255174" lon="6.9357845"/><trkpt lat="50.325513" lon="6.9355708"/><trkpt lat="50.3254923" lon="6.9354488"/><trkpt lat="50.3254457" lon="6.9353276"/><trkpt lat="50.3253423" lon="6.9351779"/><trkpt lat="50.3249653" lon="6.9346317"/><trkpt lat="50.3245996" lon="6.9340905"/><trkpt lat="50.3241782" lon="6.933728"/><trkpt lat="50.3241108" lon="6.9336812"/><trkpt lat="50.3240464" lon="6.9336599"/><trkpt lat="50.3239907" lon="6.9336642"/><trkpt lat="50.3239485" lon="6.9336791"/><trkpt lat="50.3238714" lon="6.9337282"/><trkpt lat="50.3238078" lon="6.9337849"/><trkpt lat="50.3237117" lon="6.933915"/><trkpt lat="50.3236505" lon="6.9340325"/><trkpt lat="50.3236133" lon="6.934142"/><trkpt lat="50.3235907" lon="6.9342984"/><trkpt lat="50.3236031" lon="6.9344878"/><trkpt lat="50.323649" lon="6.9346909"/><trkpt lat="50.3237554" lon="6.9348735"/><trkpt lat="50.323925" lon="6.9350106"/><trkpt lat="50.3240947" lon="6.9351454"/></trkseg></trk><trk><name>way/1113008498</name><desc>highway=raceway
+oneway=yes
+sport=motor
+surface=gravel</desc><link href="http://osm.org/browse/way/1113008498"/><trkseg><trkpt lat="50.3253423" lon="6.9351779"/><trkpt lat="50.3251968" lon="6.9351275"/><trkpt lat="50.3250896" lon="6.9351151"/></trkseg></trk><trk><name>Rallycross Circuit</name><desc>highway=raceway
+name=Rallycross Circuit
+oneway=yes
+sport=motor
+surface=gravel</desc><link href="http://osm.org/browse/way/1113008501"/><trkseg><trkpt lat="50.3244687" lon="6.9354892"/><trkpt lat="50.3244846" lon="6.9356183"/><trkpt lat="50.3245248" lon="6.9357638"/><trkpt lat="50.3245917" lon="6.9358575"/><trkpt lat="50.3246964" lon="6.9359601"/></trkseg></trk><trk><name>Rallycross circuit</name><desc>highway=raceway
+name=Rallycross circuit
+oneway=yes
+sport=motor</desc><link href="http://osm.org/browse/way/1113008502"/><trkseg><trkpt lat="50.3246964" lon="6.9359601"/><trkpt lat="50.324768" lon="6.9360132"/><trkpt lat="50.324829" lon="6.9360391"/><trkpt lat="50.3250069" lon="6.9360392"/></trkseg></trk><trk><name>Rallycross circuit</name><desc>highway=raceway
+name=Rallycross circuit
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/1113009320"/><trkseg><trkpt lat="50.3265911" lon="6.9387731"/><trkpt lat="50.32658" lon="6.9386828"/><trkpt lat="50.3265823" lon="6.9385474"/><trkpt lat="50.3266113" lon="6.9384696"/><trkpt lat="50.3266687" lon="6.9383723"/><trkpt lat="50.3266833" lon="6.9383575"/><trkpt lat="50.3269747" lon="6.9380617"/></trkseg></trk><trk><name>Rallycross circuit</name><desc>highway=raceway
+name=Rallycross circuit
+oneway=yes
+sport=motor
+surface=gravel</desc><link href="http://osm.org/browse/way/1113009321"/><trkseg><trkpt lat="50.3272563" lon="6.9371863"/><trkpt lat="50.3272428" lon="6.9371448"/><trkpt lat="50.3272168" lon="6.937104"/><trkpt lat="50.3271692" lon="6.9370647"/><trkpt lat="50.3269961" lon="6.9370507"/><trkpt lat="50.3267988" lon="6.9370717"/><trkpt lat="50.3266221" lon="6.9370549"/><trkpt lat="50.326501" lon="6.936972"/><trkpt lat="50.3263073" lon="6.9367753"/></trkseg></trk><trk><name>Rallycross circuit</name><desc>highway=raceway
+name=Rallycross circuit
+oneway=yes
+sport=motor
+surface=gravel</desc><link href="http://osm.org/browse/way/1113009324"/><trkseg><trkpt lat="50.3269747" lon="6.9380617"/><trkpt lat="50.3272618" lon="6.9377271"/><trkpt lat="50.3272938" lon="6.9376234"/><trkpt lat="50.3272982" lon="6.9374694"/><trkpt lat="50.3272841" lon="6.937328"/></trkseg></trk><trk><name>way/1113009325</name><desc>highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/1113009325"/><trkseg><trkpt lat="50.3272841" lon="6.937328"/><trkpt lat="50.3272736" lon="6.9372462"/><trkpt lat="50.3272563" lon="6.9371863"/></trkseg></trk><trk><name>way/1113009326</name><desc>highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt</desc><link href="http://osm.org/browse/way/1113009326"/><trkseg><trkpt lat="50.3263073" lon="6.9367753"/><trkpt lat="50.3261755" lon="6.9366592"/><trkpt lat="50.325938" lon="6.9364426"/></trkseg></trk><trk><name>way/1113009622</name><desc>highway=raceway
+oneway=yes
+sport=motor</desc><link href="http://osm.org/browse/way/1113009622"/><trkseg><trkpt lat="50.326378" lon="6.9382473"/><trkpt lat="50.3264467" lon="6.9383289"/><trkpt lat="50.326522" lon="6.9383781"/><trkpt lat="50.3266054" lon="6.9383781"/><trkpt lat="50.3266687" lon="6.9383723"/></trkseg></trk><trk><name>way/1113009623</name><desc>access=permissive
+highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1113009623"/><trkseg><trkpt lat="50.3269849" lon="6.9398869"/><trkpt lat="50.326737" lon="6.9391755"/><trkpt lat="50.3266446" lon="6.9389127"/><trkpt lat="50.3265911" lon="6.9387731"/><trkpt lat="50.3265555" lon="6.9386803"/><trkpt lat="50.3264673" lon="6.9384611"/><trkpt lat="50.326378" lon="6.9382473"/></trkseg></trk><trk><name>way/1113009624</name><desc>access=permissive
+highway=raceway
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1113009624"/><trkseg><trkpt lat="50.325938" lon="6.9364426"/><trkpt lat="50.3262866" lon="6.9369881"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+highway=raceway
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1149161208"/><trkseg><trkpt lat="50.3317272" lon="6.9410877"/><trkpt lat="50.3317419" lon="6.9410552"/><trkpt lat="50.3317613" lon="6.9410277"/><trkpt lat="50.3317867" lon="6.941"/><trkpt lat="50.3318085" lon="6.9409826"/><trkpt lat="50.3318422" lon="6.9409641"/><trkpt lat="50.3318798" lon="6.9409558"/><trkpt lat="50.3319165" lon="6.9409587"/><trkpt lat="50.3321213" lon="6.9410334"/><trkpt lat="50.3322309" lon="6.941089"/><trkpt lat="50.3323337" lon="6.941152"/><trkpt lat="50.3324331" lon="6.9412204"/><trkpt lat="50.3326511" lon="6.9414114"/><trkpt lat="50.3327658" lon="6.94152"/><trkpt lat="50.332851" lon="6.9415856"/><trkpt lat="50.3329165" lon="6.9416326"/><trkpt lat="50.3329605" lon="6.9416549"/><trkpt lat="50.3330083" lon="6.9416674"/><trkpt lat="50.3330898" lon="6.9416715"/><trkpt lat="50.3331594" lon="6.9416648"/><trkpt lat="50.3332462" lon="6.9416324"/><trkpt lat="50.3333205" lon="6.9415913"/><trkpt lat="50.3333862" lon="6.941533"/><trkpt lat="50.3334436" lon="6.9414688"/><trkpt lat="50.3335027" lon="6.941373"/><trkpt lat="50.3335467" lon="6.9412786"/><trkpt lat="50.3335858" lon="6.9411674"/><trkpt lat="50.3336042" lon="6.9410678"/><trkpt lat="50.3336181" lon="6.9409505"/><trkpt lat="50.3336233" lon="6.9408202"/><trkpt lat="50.3336179" lon="6.9406617"/><trkpt lat="50.333582" lon="6.9402453"/><trkpt lat="50.3335351" lon="6.9398384"/><trkpt lat="50.3334846" lon="6.9395291"/><trkpt lat="50.3334393" lon="6.9393042"/><trkpt lat="50.3333991" lon="6.939132"/><trkpt lat="50.3333577" lon="6.9389901"/><trkpt lat="50.3333195" lon="6.9388895"/><trkpt lat="50.3332899" lon="6.9388321"/><trkpt lat="50.3332508" lon="6.9387699"/><trkpt lat="50.3332084" lon="6.9387098"/><trkpt lat="50.333168" lon="6.9386664"/><trkpt lat="50.3331276" lon="6.9386342"/><trkpt lat="50.3330917" lon="6.9386119"/><trkpt lat="50.3330643" lon="6.9385992"/><trkpt lat="50.3330329" lon="6.9385891"/><trkpt lat="50.3330131" lon="6.9385856"/><trkpt lat="50.3329935" lon="6.9385869"/><trkpt lat="50.3329741" lon="6.9385932"/><trkpt lat="50.3329446" lon="6.9386066"/><trkpt lat="50.3329038" lon="6.9386292"/><trkpt lat="50.3328628" lon="6.9386559"/><trkpt lat="50.33284" lon="6.9386779"/><trkpt lat="50.3328072" lon="6.9387236"/><trkpt lat="50.3327693" lon="6.9387966"/><trkpt lat="50.3327351" lon="6.9388848"/><trkpt lat="50.332718" lon="6.9389408"/><trkpt lat="50.3327079" lon="6.9389864"/><trkpt lat="50.332702" lon="6.9390302"/><trkpt lat="50.3327027" lon="6.9390827"/><trkpt lat="50.3327145" lon="6.9394621"/><trkpt lat="50.3327148" lon="6.9395602"/><trkpt lat="50.3327096" lon="6.9396579"/><trkpt lat="50.3327005" lon="6.9397492"/><trkpt lat="50.3326913" lon="6.9398004"/><trkpt lat="50.3326782" lon="6.9398435"/><trkpt lat="50.3326623" lon="6.9398814"/><trkpt lat="50.3326395" lon="6.9399226"/><trkpt lat="50.3326236" lon="6.9399436"/><trkpt lat="50.3326029" lon="6.9399607"/><trkpt lat="50.3325743" lon="6.939977"/><trkpt lat="50.3325381" lon="6.939989"/><trkpt lat="50.3324763" lon="6.9400024"/><trkpt lat="50.3324011" lon="6.9400114"/><trkpt lat="50.3323423" lon="6.9400116"/><trkpt lat="50.3318421" lon="6.9399165"/><trkpt lat="50.3316037" lon="6.9398732"/><trkpt lat="50.3310198" lon="6.9397097"/><trkpt lat="50.3308941" lon="6.9396779"/><trkpt lat="50.3305641" lon="6.939583"/><trkpt lat="50.3305247" lon="6.9395699"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+highway=raceway
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1149161209"/><trkseg><trkpt lat="50.3294552" lon="6.9390522"/><trkpt lat="50.3293919" lon="6.9390097"/><trkpt lat="50.3293439" lon="6.9389615"/><trkpt lat="50.3293041" lon="6.9389105"/><trkpt lat="50.3292702" lon="6.9388313"/><trkpt lat="50.3292362" lon="6.9387205"/><trkpt lat="50.3292136" lon="6.9385986"/><trkpt lat="50.32921" lon="6.9385433"/><trkpt lat="50.3292108" lon="6.9384846"/><trkpt lat="50.3292137" lon="6.9384458"/><trkpt lat="50.3292244" lon="6.9383732"/><trkpt lat="50.3292473" lon="6.9382656"/><trkpt lat="50.3292742" lon="6.9381875"/><trkpt lat="50.3293004" lon="6.9381342"/><trkpt lat="50.3293348" lon="6.9380883"/><trkpt lat="50.3293641" lon="6.9380537"/><trkpt lat="50.3293991" lon="6.9380301"/><trkpt lat="50.3294455" lon="6.9380029"/><trkpt lat="50.3294995" lon="6.9379876"/><trkpt lat="50.329544" lon="6.9379782"/><trkpt lat="50.3296878" lon="6.9380068"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+bridge=no
+highway=raceway
+layer=1
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1149161210"/><trkseg><trkpt lat="50.3373887" lon="6.9471467"/><trkpt lat="50.3373994" lon="6.9471986"/><trkpt lat="50.3374259" lon="6.9473295"/><trkpt lat="50.3375019" lon="6.9477886"/><trkpt lat="50.3375624" lon="6.9482106"/><trkpt lat="50.3376864" lon="6.9490472"/><trkpt lat="50.3377052" lon="6.9491896"/><trkpt lat="50.3377163" lon="6.9492983"/><trkpt lat="50.337717" lon="6.9493802"/><trkpt lat="50.3377083" lon="6.9494464"/><trkpt lat="50.3376932" lon="6.9495276"/><trkpt lat="50.3376726" lon="6.9495995"/><trkpt lat="50.337651" lon="6.9496711"/><trkpt lat="50.3376235" lon="6.9497397"/><trkpt lat="50.3375769" lon="6.9498094"/><trkpt lat="50.3375191" lon="6.9498884"/><trkpt lat="50.3374733" lon="6.9499344"/><trkpt lat="50.3374006" lon="6.9499733"/><trkpt lat="50.3373287" lon="6.9499869"/><trkpt lat="50.3372752" lon="6.9499883"/><trkpt lat="50.3372192" lon="6.9499862"/><trkpt lat="50.3371972" lon="6.9499828"/><trkpt lat="50.3371493" lon="6.9499735"/><trkpt lat="50.3370906" lon="6.9499448"/><trkpt lat="50.3370597" lon="6.9499273"/><trkpt lat="50.3370153" lon="6.9498866"/><trkpt lat="50.3369725" lon="6.9498398"/><trkpt lat="50.3369535" lon="6.9498191"/><trkpt lat="50.3368937" lon="6.9497367"/><trkpt lat="50.3367165" lon="6.9494711"/><trkpt lat="50.3355593" lon="6.9477084"/><trkpt lat="50.3352572" lon="6.9472398"/><trkpt lat="50.3339987" lon="6.9452952"/><trkpt lat="50.3337244" lon="6.9448713"/><trkpt lat="50.3329135" lon="6.9436319"/><trkpt lat="50.3327933" lon="6.9434482"/><trkpt lat="50.3325997" lon="6.9431258"/><trkpt lat="50.3323892" lon="6.9427476"/><trkpt lat="50.3321253" lon="6.9422143"/><trkpt lat="50.3319219" lon="6.9417345"/><trkpt lat="50.3317559" lon="6.9413258"/><trkpt lat="50.3317278" lon="6.941237"/><trkpt lat="50.3317192" lon="6.941196"/><trkpt lat="50.331715" lon="6.941162"/><trkpt lat="50.3317187" lon="6.9411229"/><trkpt lat="50.3317272" lon="6.9410877"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+bridge=no
+highway=raceway
+layer=1
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1149161211"/><trkseg><trkpt lat="50.3366689" lon="6.9459547"/><trkpt lat="50.3366838" lon="6.94603"/><trkpt lat="50.3366937" lon="6.9460607"/><trkpt lat="50.3367029" lon="6.9460765"/><trkpt lat="50.3367121" lon="6.9460854"/><trkpt lat="50.3367265" lon="6.9460915"/><trkpt lat="50.3367391" lon="6.9460922"/><trkpt lat="50.3367552" lon="6.946088"/><trkpt lat="50.3369502" lon="6.9460214"/><trkpt lat="50.336966" lon="6.9460195"/><trkpt lat="50.3369817" lon="6.9460226"/><trkpt lat="50.3369962" lon="6.9460285"/><trkpt lat="50.3370102" lon="6.9460362"/><trkpt lat="50.3370296" lon="6.9460498"/><trkpt lat="50.3370502" lon="6.9460685"/><trkpt lat="50.3370693" lon="6.9460912"/><trkpt lat="50.3370966" lon="6.9461375"/><trkpt lat="50.3371165" lon="6.9461761"/><trkpt lat="50.337134" lon="6.9462151"/><trkpt lat="50.3371494" lon="6.9462653"/><trkpt lat="50.3372867" lon="6.9467433"/><trkpt lat="50.3373887" lon="6.9471467"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+bridge=yes
+highway=raceway
+layer=1
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1443047844"/><trkseg><trkpt lat="50.330375" lon="6.9383217"/><trkpt lat="50.3307543" lon="6.9385106"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+highway=raceway
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1443047845"/><trkseg><trkpt lat="50.3296878" lon="6.9380068"/><trkpt lat="50.3299764" lon="6.9381464"/><trkpt lat="50.3301899" lon="6.938241"/><trkpt lat="50.3303438" lon="6.938308"/><trkpt lat="50.330375" lon="6.9383217"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+bridge=yes
+highway=raceway
+layer=1
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1443047846"/><trkseg><trkpt lat="50.3305247" lon="6.9395699"/><trkpt lat="50.3304134" lon="6.9395275"/><trkpt lat="50.330159" lon="6.9394003"/></trkseg></trk><trk><name>Nürburgring Sprintstrecke</name><desc>access=permissive
+highway=raceway
+name=Nürburgring Sprintstrecke
+name:en=Nürburgring Sprint course
+oneway=yes
+sport=motor
+surface=asphalt
+wikipedia=de:Nürburgring</desc><link href="http://osm.org/browse/way/1443047847"/><trkseg><trkpt lat="50.330159" lon="6.9394003"/><trkpt lat="50.3299594" lon="6.9393006"/><trkpt lat="50.3295889" lon="6.9391152"/><trkpt lat="50.3294552" lon="6.9390522"/></trkseg></trk><trk><name>Antoniusbuche</name><desc>access=private
+fee=yes
+highway=raceway
+name=Antoniusbuche
+oneway=yes
+sport=motor
+surface=asphalt
+width=8
+wikipedia=en:Nürburgring</desc><link href="http://osm.org/browse/way/1571450724"/><trkseg><trkpt lat="50.3423351" lon="6.9581339"/><trkpt lat="50.3420393" lon="6.9577543"/></trkseg></trk></gpx>
