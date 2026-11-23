@@ -8,12 +8,17 @@ from dataclasses import dataclass
 
 CAR_RE = re.compile(r"(?:\bcar\b|#|\bno\.?)\s*(\d{1,3})\b", re.IGNORECASE)
 HOUR_RE = re.compile(r"\b(?:split|hour)\s*(\d{1,2})\b", re.IGNORECASE)
+RESULTS_RE = re.compile(
+    r"\b(won|win|wins|winner|winners|winning|victory|podium|champion|first place|result|results|"
+    r"finished|finish|classification|standings|who came|position)\b",
+    re.IGNORECASE,
+)
 FILE_RE = re.compile(r"\b(IMG_\d{4}\.(?:HEIC|MOV|MP4|JPG|JPEG|PNG))\b", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
 class Intent:
-    kind: str  # car | standings | media | overview
+    kind: str  # car | standings | results | media | overview
     car_number: int | None = None
     hour: int | None = None
     file: str | None = None
@@ -36,4 +41,6 @@ def route(
     hour = hour or (int(m.group(1)) if (m := HOUR_RE.search(question)) else None)
     if hour is not None:
         return Intent("standings", hour=hour)
+    if RESULTS_RE.search(question):
+        return Intent("results")
     return Intent("overview")

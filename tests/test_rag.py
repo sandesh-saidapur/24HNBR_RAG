@@ -43,7 +43,7 @@ def test_clock_and_seconds_formatting() -> None:
         ("penalties for no. 95", "car", 95, None, None),
         ("who led at split 13", "standings", None, 13, None),
         ("what is in photo IMG_0677.MOV", "media", None, None, "IMG_0677.MOV"),
-        ("who won the race", "overview", None, None, None),
+        ("who won the race", "results", None, None, None),
     ],
 )
 def test_router_rules(
@@ -129,3 +129,32 @@ def test_ask_endpoint_photo_evidence_carries_race_time() -> None:
     body = client.post("/api/ask", json={"question": "photo", "file": "IMG_0677.MOV"}).json()
     assert body["intent"] == "media"
     assert "race time" in body["evidence"][0]["text"]
+
+
+def test_winner_questions_route_to_results() -> None:
+    assert route("Who won the 24 hours?").kind == "results"
+    assert route("Which cars finished on the podium?").kind == "results"
+    assert route("car 80 won?").kind == "car"
+
+
+def test_figures_in_the_question_are_not_flagged() -> None:
+    from src.rag.answer import verify
+    from src.rag.evidence import EvidenceBook
+
+    book = EvidenceBook()
+    book.add("car", "official classification", "Winward Racing, car 80, position 1")
+    text = "Car 80 finished first [E1]."
+    assert verify(text, book, "Who won the 24 hours?").ok
+    # A 24 that the user never typed and the evidence does not contain is still flagged.
+    assert not verify("The race lasted 24 hours [E1].", book, "Who won?").ok
+
+
+def test_full_width_citation_brackets_are_accepted() -> None:
+    from src.rag.answer import normalise, verify
+    from src.rag.evidence import EvidenceBook
+
+    book = EvidenceBook()
+    book.add("car", "official final result", "Car 80, position 1, total 24:05:27.664")
+    text = normalise("Car 80 won the race【E1】.")
+    assert "[E1]" in text
+    assert verify(text, book, "Who won?").ok

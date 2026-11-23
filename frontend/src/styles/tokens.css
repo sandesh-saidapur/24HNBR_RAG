@@ -1,10 +1,10 @@
 :root {
-  --bg: #0a0c0f;
-  --panel: #12161c;
-  --panel-2: #181e26;
-  --line: #242c36;
+  --bg: #05070a;
+  --panel: #0b0f14;
+  --panel-2: #11161d;
+  --line: #1b222c;
   --text: #e8ecf1;
-  --muted: #8a95a5;
+  --muted: #7c8798;
   --accent: #ff3b30;   /* racing red */
   --accent-2: #ffc20e; /* yellow flag */
   --ok: #30d158;

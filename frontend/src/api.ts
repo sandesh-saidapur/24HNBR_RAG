@@ -1,4 +1,4 @@
-import type { AskResponse, Car, CarDetail, Lap, MediaItem, TrackOutline } from "./types";
+import type { AskResponse, Car, CarDetail, CircuitSegments, Lap, MediaItem, PhotoHit, TrackOutline } from "./types";
 
 async function get<T>(path: string): Promise<T> {
   const response = await fetch(path);
@@ -12,6 +12,16 @@ export const api = {
   laps: (n: number) => get<Lap[]>(`/api/cars/${n}/laps?limit=2000`),
   media: () => get<MediaItem[]>("/api/media"),
   track: () => get<TrackOutline>("/api/track"),
+  circuit: () => get<CircuitSegments>("/api/track/circuit"),
+  async searchPhotos(q: string, k = 8): Promise<PhotoHit[]> {
+    const params = new URLSearchParams({ q, k: String(k) });
+    const response = await fetch(`/api/search/photos?${params}`);
+    if (!response.ok) {
+      const body = (await response.json().catch(() => ({}))) as { detail?: string };
+      throw new Error(body.detail ?? `search failed (${response.status})`);
+    }
+    return (await response.json()) as PhotoHit[];
+  },
   async ask(body: { question: string; car_number?: number; file?: string }): Promise<AskResponse> {
     const response = await fetch("/api/ask", {
       method: "POST",

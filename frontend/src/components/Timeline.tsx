@@ -17,7 +17,7 @@ export function Timeline({ min, max, value, onChange, media }: Props) {
   return (
     <div className="timeline">
       <div className="timeline-head">
-        <h2>24-hour scrubber</h2>
+        <h2>Race time</h2>
         <span className="muted">{fmtRaceHour(value)} race time</span>
       </div>
       <div className="track-bar">

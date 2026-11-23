@@ -110,7 +110,7 @@ Housekeeping:
 ## Update: provider split and car identification (23 Nov 2026)
 
 - Decision: Groq (free tier) writes the text answers. Claude reads the photos. Live testing is planned for near the end of the project.
-- `src/rag/llm.py`: `GroqClient` (`GROQ_API_KEY`), `ClaudeClient` with vision (`ANTHROPIC_API_KEY`), and model overrides `TEXT_MODEL`, `VISION_MODEL`, `JUDGE_MODEL`. The default text model is `llama-3.3-70b-versatile`; check Groq's current model list before the live test.
+- `src/rag/llm.py`: `GroqClient` (`GROQ_API_KEY`), `ClaudeClient` with vision (`ANTHROPIC_API_KEY`), and model overrides `TEXT_MODEL`, `VISION_MODEL`, `JUDGE_MODEL`. The default text model is `openai/gpt-oss-120b`. `llama-3.3-70b-versatile` was retired by Groq on 16 Aug 2026 (the request returned model_not_found). Replacements per Groq's deprecation page: `openai/gpt-oss-120b` or `qwen/qwen3.6-27b`.
 - `src/alignment/car_identifier.py`: a photo is accepted only if the car number is in the official classification, the model's own digit reading agrees, and confidence is at least 0.6. Rejected sightings are kept with the reason.
 - `scripts/identify_cars.py`: runs over the photo timeline and writes `data/processed/car_identifications.json`. Photos only; video frames come later. Needs `ANTHROPIC_API_KEY`, so it has not been run.
 - `.env.example` lists both provider keys and the model overrides. Lint is clean, and the 23 existing tests still pass.
@@ -136,3 +136,23 @@ Housekeeping:
 - Dashboard: a hero with the photo slideshow behind the headline, then the figures, the podium and statements, and the interactive panels. Dark palette. Type-checks and builds; not yet opened in a browser.
 - Fixed: the photo type label is `photo`, not `image`. The car-identification script had the same bug and would have skipped all photos.
 - Fixed: one short clip (IMG_0731) had no frames. It now gets a first-frame fallback.
+
+## Update: photo vector index (23 Nov 2026)
+
+- `src/indexing/vector_store.py`: LanceDB table of photo and video-frame embeddings. Race time and caption are stored at build time from the timing database. Cosine search.
+- `src/indexing/embedders.py`: SigLIP image and text encoder (`google/siglip-base-patch16-224`). Not run on the build machine, because Hugging Face is blocked there. It runs on your Mac.
+- `scripts/build_photo_index.py`: indexes the 99 timeline items, using all 176 video frames plus the photos (one vector each). Writes `data/processed/vector_store/` (gitignored).
+- `GET /api/search/photos?q=...&k=...`: text-to-photo search. Returns 503 until the index is built, with the reason in the response.
+- `pyproject.toml`: new optional extra `vector` (lancedb, pyarrow, pillow-heif, transformers, torch).
+- Tests: `tests/test_vector.py` (7 tests) use a keyword embedder, so no model is needed. Total: 31 passed.
+- Still open: the live SigLIP build and a check of search quality on real photos. Text passages are not yet embedded (BM25 only).
+
+## Update: Ask panel shows its evidence (23 Nov 2026)
+
+- Answer citations `[E#]` are clickable chips; clicking one highlights and scrolls to its evidence row.
+- Evidence rows are labelled by source: Official timing, Penalty list, Hourly standing, Photo timeline, Press documents.
+- Verifier messages are shown in plain English. Unverified answers are marked "Needs review".
+- Winner and podium questions route to the official top three (`results` intent), not only to press documents.
+- Citation brackets written as 【E1】 are normalised before checking.
+- Groq model: `openai/gpt-oss-120b` (`llama-3.3-70b-versatile` was retired on 16 Aug 2026).
+- Tests: 34 passed. Frontend type-check and build pass; display checked with sample data.

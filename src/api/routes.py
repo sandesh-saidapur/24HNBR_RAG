@@ -9,15 +9,17 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from src.api.schemas import (
     AskRequest,
     AskResponse,
+    CircuitSegments,
     CarDetail,
     CarRow,
     LapRow,
     MediaRow,
     PenaltyRow,
+    PhotoHit,
     StandingRow,
     TrackOutline,
 )
-from src.api.track import ATTRIBUTION, load_outline
+from src.api.track import ATTRIBUTION, load_circuit, load_outline
 from src.indexing.tabular_store import TimingStore
 from src.rag.pipeline import ask
 
@@ -124,3 +126,36 @@ def ask_question(body: AskRequest, request: Request) -> AskResponse:
 @router.get("/track", response_model=TrackOutline)
 def track_outline() -> dict:
     return {"attribution": ATTRIBUTION, "points": load_outline()}
+
+
+@router.get("/search/photos", response_model=list[PhotoHit])
+def search_photos(
+    request: Request,
+    q: Annotated[str, Query(min_length=2, max_length=200)],
+    k: Annotated[int, Query(ge=1, le=20)] = 8,
+) -> list[dict]:
+    index = request.app.state.photo_index
+    if index is None:
+        raise HTTPException(
+            status_code=503,
+            detail="photo index not built; run scripts/build_photo_index.py",
+        )
+    embedder = request.app.state.embedder
+    if embedder is None:
+        try:
+            from src.indexing.embedders import SigLIPEmbedder
+
+            embedder = SigLIPEmbedder()
+        except Exception as exc:  # model or extra missing: report, do not crash the API
+            raise HTTPException(
+                status_code=503,
+                detail=f"text embedder unavailable: {type(exc).__name__}",
+            ) from exc
+        request.app.state.embedder = embedder
+    vector = embedder.embed_text([q])[0]
+    return index.search(vector, k)
+
+
+@router.get("/track/circuit", response_model=CircuitSegments)
+def circuit_segments() -> dict:
+    return {"attribution": ATTRIBUTION, "segments": load_circuit()}

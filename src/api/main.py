@@ -17,10 +17,12 @@ from src.api.routes import router
 from src.api.schemas import Health
 from src.indexing.bm25 import BM25Index, Passage
 from src.indexing.tabular_store import DEFAULT_DB, TimingStore
+from src.indexing.vector_store import PhotoIndex
 from src.rag.llm import TextLLM, get_text_llm
 
 FRONTEND_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173"]
 PASSAGES = Path(__file__).resolve().parents[2] / "data/processed/text_passages.json"
+VECTOR_PATH = Path(__file__).resolve().parents[2] / "data/processed/vector_store"
 
 
 def load_text_index(path: Path = PASSAGES) -> BM25Index | None:
@@ -30,7 +32,20 @@ def load_text_index(path: Path = PASSAGES) -> BM25Index | None:
     return BM25Index([Passage(r["id"], r["source"], r["text"]) for r in rows])
 
 
-def create_app(db_path: Path | str | None = None, llm: TextLLM | None = None) -> FastAPI:
+def _open_index(path: Path | None) -> PhotoIndex | None:
+    try:
+        return PhotoIndex.open(path or VECTOR_PATH)
+    except ImportError:  # the "vector" extra is not installed
+        return None
+
+
+def create_app(
+    db_path: Path | str | None = None,
+    llm: TextLLM | None = None,
+    photo_index: PhotoIndex | None = None,
+    embedder: object | None = None,
+    vector_path: Path | None = None,
+) -> FastAPI:
     path = db_path or os.environ.get("TRACKSIDE_DB_PATH") or DEFAULT_DB
     app = FastAPI(
         title="Trackside 24 API",
@@ -40,6 +55,8 @@ def create_app(db_path: Path | str | None = None, llm: TextLLM | None = None) ->
     app.state.store = TimingStore(path)
     app.state.llm = llm if llm is not None else get_text_llm()
     app.state.text_index = load_text_index()
+    app.state.photo_index = photo_index if photo_index is not None else _open_index(vector_path)
+    app.state.embedder = embedder
     app.add_middleware(
         CORSMiddleware,
         allow_origins=FRONTEND_ORIGINS,

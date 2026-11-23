@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 
 from src.indexing.bm25 import BM25Index
@@ -29,6 +30,15 @@ def gather(store: TimingStore, intent: Intent) -> tuple[EvidenceBook, list[str]]
             ev.add_penalties(store, book, intent.car_number)
         else:
             notes.append(f"car {intent.car_number} is not in the classification")
+    elif intent.kind == "results":
+        podium = sorted(
+            (c for c in store.cars() if c["position"] and c["position"] <= 3),
+            key=lambda c: c["position"],
+        )
+        for car in podium:
+            ev.add_car(store, book, car["car_number"])
+        if not podium:
+            notes.append("no official classification is loaded")
     elif intent.kind == "standings" and intent.hour is not None:
         if not ev.add_standings(store, book, intent.hour):
             notes.append(f"no split at hour {intent.hour}")
@@ -36,6 +46,16 @@ def gather(store: TimingStore, intent: Intent) -> tuple[EvidenceBook, list[str]]
         if not ev.add_media(store, book, intent.file):
             notes.append(f"{intent.file} is not in the photo timeline")
     return book, notes
+
+
+def driver_car(store: TimingStore, question: str) -> int | None:
+    """The car of a driver whose surname appears in the question (for example 'Verstappen')."""
+    for car in store.cars():
+        for name in (car.get("drivers") or "").split(";"):
+            surname = name.strip().split(" ")[0] if name.strip() else ""
+            if len(surname) >= 4 and re.search(rf"\b{re.escape(surname)}\b", question, re.IGNORECASE):
+                return int(car["car_number"])
+    return None
 
 
 def ask(
@@ -48,6 +68,8 @@ def ask(
     file: str | None = None,
     index: BM25Index | None = None,
 ) -> Result:
+    if car_number is None:
+        car_number = driver_car(store, question)
     intent = route(question, car_number=car_number, hour=hour, file=file)
     book, notes = gather(store, intent)
     if intent.kind == "overview":

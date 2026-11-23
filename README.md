@@ -90,7 +90,7 @@ The frontend (React, TypeScript, Vite) is in progress.
 | Storage | DuckDB (verified timing), LanceDB and BM25 (planned) |
 | API | FastAPI, Pydantic v2, Uvicorn |
 | Frontend | React 19, TypeScript, Vite |
-| LLM | Groq for text answers (`llama-3.3-70b-versatile`, free tier); Claude for photo reading (`claude-sonnet-5-5`) and offline judging (`claude-opus-5-5`) |
+| LLM | Groq for text answers (`openai/gpt-oss-120b`, free tier); Claude for photo reading (`claude-sonnet-5-5`) and offline judging (`claude-opus-5-5`) |
 | Testing | pytest, httpx |
 
 ---

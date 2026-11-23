@@ -58,7 +58,8 @@ def add_car(store: TimingStore, book: EvidenceBook, car_number: int) -> bool:
     book.add(
         "car",
         "official final result",
-        f"Car {car_number} ({car['team']}, class {car['class']}): status {car['status']}, "
+        f"Car {car_number} ({car['team']}, class {car['class']}, drivers "
+        f"{(car.get('drivers') or 'not listed').replace(';', ', ')}): status {car['status']}, "
         f"{position}, {car['laps']} laps, total {fmt_clock(car['total_time_s'])}.",
         {"car_number": car_number},
     )

@@ -20,7 +20,7 @@ It matches the author's own trackside photos and videos to the official race clo
 | Area | Decision |
 |---|---|
 | LLM providers | Two providers, split by job. **Groq** (free tier) writes the text answers. **Claude** reads photos (car identification). No Gemini, no OpenAI, no local LLM. |
-| Models | Text answers: `llama-3.3-70b-versatile` on Groq (set by `TEXT_MODEL`). Photo reading: `claude-sonnet-5-5` (`VISION_MODEL`). Offline judging: `claude-opus-5-5` (`JUDGE_MODEL`). Query routing is rule-based, so no router model is needed. |
+| Models | Text answers: `openai/gpt-oss-120b` on Groq (set by `TEXT_MODEL`). Photo reading: `claude-sonnet-5-5` (`VISION_MODEL`). Offline judging: `claude-opus-5-5` (`JUDGE_MODEL`). Query routing is rule-based, so no router model is needed. |
 | Numbers | Lap times, positions, penalties and totals come from SQL on the timing database. The model is never the source of a figure. |
 | Public demo | Uses only the author's own media. Organiser material (PDFs, figures, quotes) is shown only after its usage terms are checked. |
 | Backend | Python 3.10+, FastAPI, Pydantic v2, DuckDB (read-only at serve time). |

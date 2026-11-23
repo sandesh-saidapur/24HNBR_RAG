@@ -4,12 +4,22 @@ import { AskPanel } from "./components/AskPanel";
 import { CarPanel } from "./components/CarPanel";
 import { CarPhotos } from "./components/CarPhotos";
 import { ClassificationTable } from "./components/ClassificationTable";
+import { Mark } from "./components/Mark";
+import { PhotoSearch } from "./components/PhotoSearch";
+import { PhotoWindow } from "./components/PhotoWindow";
+import { HeroTrack } from "./components/HeroTrack";
 import { Timeline } from "./components/Timeline";
 import { TrackMap } from "./components/TrackMap";
 import { Figures } from "./dashboard/Figures";
 import { Hero } from "./dashboard/Hero";
 import { Podium } from "./dashboard/Podium";
 import type { Car, CarPhotoMap, EventData, MediaItem, PaceMap, SlideItem, TrackOutline } from "./types";
+
+const SECTIONS = [
+  { id: "weekend", label: "Weekend" },
+  { id: "podium", label: "Podium" },
+  { id: "explore", label: "Explore" },
+];
 
 export default function App() {
   const [cars, setCars] = useState<Car[]>([]);
@@ -22,6 +32,7 @@ export default function App() {
   const [selectedCar, setSelectedCar] = useState<number | null>(80);
   const [clock, setClock] = useState<number>(0);
   const [error, setError] = useState<string | null>(null);
+  const [active, setActive] = useState<string>("weekend");
 
   useEffect(() => {
     // Static assets come from /public; live data comes from the API.
@@ -40,6 +51,22 @@ export default function App() {
       .catch((e: Error) => setError(e.message));
   }, []);
 
+  // Highlight the section in view in the top bar.
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible[0]) setActive(visible[0].target.id);
+      },
+      { rootMargin: "-40% 0px -55% 0px" },
+    );
+    SECTIONS.forEach((s) => {
+      const el = document.getElementById(s.id);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, [event]);
+
   const range = useMemo(() => {
     if (!media.length) return { min: 0, max: 86_400 };
     const times = media.map((m) => m.race_elapsed_s);
@@ -48,19 +75,44 @@ export default function App() {
 
   return (
     <div className="dashboard">
-      <Hero event={event} slides={slides} clock={clock} />
+      <nav className="topbar">
+        <a className="brand" href="#top">
+          <Mark />
+          <span>Trackside 24</span>
+        </a>
+        <ul className="navlinks">
+          {SECTIONS.map((s) => (
+            <li key={s.id}>
+              <a href={`#${s.id}`} className={active === s.id ? "is-active" : undefined}>{s.label}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <div id="top" />
+      <Hero event={event} map={<HeroTrack />}>
+        <PhotoWindow slides={slides} clock={clock} />
+      </Hero>
 
       <main className="content">
         {error && <p className="banner">Could not load the race data: {error}. Is the API running on port 8000?</p>}
 
-        {event && <Figures figures={event.figures} />}
-        {event && <Podium event={event} onSelect={setSelectedCar} />}
+        <section className="block section" id="weekend">
+          <div className="section-title"><h2>The weekend in figures</h2></div>
+          {event && <Figures figures={event.figures} />}
+        </section>
 
-        <section className="block" id="explore">
-          <div className="block-head">
+        <section className="block section" id="podium">
+          <div className="section-title"><h2>Podium and words from the drivers</h2></div>
+          {event && <Podium event={event} onSelect={setSelectedCar} />}
+        </section>
+
+        <section className="block section" id="explore">
+          <div className="section-title">
             <h2>Explore the race</h2>
-            <span className="muted">Classification, circuit, clock and questions. Everything here is live from the database.</span>
+            <span className="muted small">Classification, circuit, clock and questions. Live from the database.</span>
           </div>
+          <PhotoSearch onPick={(s) => setClock(s)} />
           <div className="grid">
             <section className="panel panel-table">
               <ClassificationTable cars={cars} selected={selectedCar} onSelect={setSelectedCar} pace={pace} />
@@ -76,6 +128,7 @@ export default function App() {
             </section>
           </div>
         </section>
+
 
         {event && (
           <footer className="sources">

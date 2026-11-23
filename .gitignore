@@ -72,3 +72,10 @@ frontend/public/slideshow/
 
 # Built from organiser timing and press material; publish only after usage terms are checked
 frontend/public/data/
+
+# Generated frontend data and personal photos: never commit
+frontend/public/slideshow/
+frontend/public/data/
+frontend/public/open-photos/
+frontend/public/car_photos.json
+data/processed/*.png

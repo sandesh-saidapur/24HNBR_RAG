@@ -112,3 +112,16 @@ class AskResponse(BaseModel):
 class TrackOutline(BaseModel):
     attribution: str
     points: list[tuple[float, float]]
+
+
+class PhotoHit(BaseModel):
+    key: str
+    file: str
+    race_elapsed_s: float
+    caption: str
+    score: float
+
+
+class CircuitSegments(BaseModel):
+    attribution: str
+    segments: list[list[tuple[float, float]]]

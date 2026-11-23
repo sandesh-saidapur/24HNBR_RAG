@@ -16,7 +16,7 @@ import httpx
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 DEFAULT_MODELS = {
-    "text": "llama-3.3-70b-versatile",  # Groq
+    "text": "openai/gpt-oss-120b",  # Groq
     "vision": "claude-sonnet-5-5",  # Claude
     "judge": "claude-opus-5-5",  # Claude, offline evaluation only
 }

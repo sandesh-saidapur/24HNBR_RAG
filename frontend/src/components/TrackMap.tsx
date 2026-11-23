@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { api } from "../api";
 import { fmtClock } from "../format";
-import type { MediaItem, TrackOutline } from "../types";
+import type { CircuitSegments, MediaItem, TrackOutline } from "../types";
 
 const WINDOW_S = 900; // photos within 15 minutes of the scrubber are highlighted
 
@@ -29,19 +30,33 @@ function projector(points: [number, number][]) {
 
 export function TrackMap({ track, media, clock }: Props) {
   const [picked, setPicked] = useState<string | null>(null);
-  const project = useMemo(
-    () => (track && track.points.length ? projector(track.points) : null),
-    [track],
-  );
+  const [circuit, setCircuit] = useState<CircuitSegments | null>(null);
+
+  useEffect(() => {
+    api.circuit().then(setCircuit).catch(() => setCircuit(null));
+  }, []);
+
+  // Project with the circuit's own extent so pins and sections share one frame.
+  const project = useMemo(() => {
+    const points = circuit?.segments.flat() ?? track?.points ?? [];
+    return points.length ? projector(points) : null;
+  }, [circuit, track]);
+
+  // One subpath per circuit section, so sections are never joined by straight jumps.
   const path = useMemo(() => {
-    if (!project || !track) return "";
-    return track.points
-      .map(([lat, lon], i) => {
-        const [x, y] = project(lat, lon);
-        return `${i === 0 ? "M" : "L"}${(x * 1000).toFixed(1)},${(y * 1000).toFixed(1)}`;
-      })
+    if (!project) return "";
+    const segments = circuit?.segments ?? (track ? [track.points] : []);
+    return segments
+      .map((segment) =>
+        segment
+          .map(([lat, lon], i) => {
+            const [x, y] = project(lat, lon);
+            return `${i === 0 ? "M" : "L"}${(x * 1000).toFixed(1)},${(y * 1000).toFixed(1)}`;
+          })
+          .join(" "),
+      )
       .join(" ");
-  }, [project, track]);
+  }, [project, circuit, track]);
 
   const pins = media.filter((m) => m.latitude !== null && m.longitude !== null && project);
   const current = pins.find((m) => m.file === picked) ?? null;
@@ -49,7 +64,7 @@ export function TrackMap({ track, media, clock }: Props) {
   return (
     <div className="map">
       <div className="map-head">
-        <h2>Circuit &amp; your photos</h2>
+        <h2>Where your photos were taken</h2>
         <span className="muted">Race clock {fmtClock(clock)}</span>
       </div>
       <svg viewBox="0 0 1000 1000" role="img" aria-label="Nürburgring outline with photo locations">
@@ -80,7 +95,7 @@ export function TrackMap({ track, media, clock }: Props) {
           {current.distance_m !== null ? ` (${current.distance_m.toFixed(0)} m)` : ""}
         </p>
       ) : (
-        <p className="pin-info muted">Select a pin to see its details. Bright pins are within 15 minutes of the clock.</p>
+        <p className="pin-info muted">Click a dot to see that photo. Bright dots were taken within 15 minutes of the time shown.</p>
       )}
     </div>
   );

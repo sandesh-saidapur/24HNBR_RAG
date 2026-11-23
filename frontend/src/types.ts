@@ -107,6 +107,8 @@ export interface SlideItem {
   kind: "photo" | "video";
   file?: string;
   race_elapsed_s?: number;
+  width?: number;
+  height?: number;
 }
 
 /** Lap times in seconds per car number (string key), in lap order. */
@@ -114,3 +116,16 @@ export type PaceMap = Record<string, number[]>;
 
 /** Identified photos and video frames per car number (string key). */
 export type CarPhotoMap = Record<string, SlideItem[]>;
+
+export interface PhotoHit {
+  key: string;
+  file: string;
+  race_elapsed_s: number;
+  caption: string;
+  score: number;
+}
+
+export interface CircuitSegments {
+  attribution: string;
+  segments: [number, number][][];
+}
