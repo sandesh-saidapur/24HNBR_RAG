@@ -95,3 +95,44 @@ Housekeeping:
 - **Database fix:** car numbers are integers in every table, so joins and API types agree.
 - **Packaging:** `pyproject.toml` added, with dependencies and build settings.
 - **Not yet done:** Phase 4 (RAG engine with Claude), the car-identification step, the LanceDB and BM25 indexes, and the frontend.
+
+## Update: Phase 4 started, RAG answer layer (23 Nov 2026)
+
+- `src/rag/evidence.py`: builds evidence from the database. Every figure is formatted in code, so the model never has to write one.
+- `src/rag/router.py`: rule-based routing for car, split, photo and overview questions. Explicit arguments override the question text.
+- `src/rag/answer.py`: grounded prompt plus a verifier. It rejects answers with no citations, unknown citations, or any figure not in the evidence.
+- `src/rag/llm.py`: Claude is the only provider. Models: Haiku 5.5 (router), Sonnet 5.5 (answers), Opus 5.5 (judge). Live calls need `ANTHROPIC_API_KEY`.
+- `POST /api/ask`: returns evidence always, and an answer when a key is set. Status is `answered`, `evidence_only` or `needs_question`.
+- `.env.example` now lists Claude only. The Gemini, OpenAI and Streamlit entries are removed.
+- Tests: 23 passed, offline. Lint clean.
+- Not done: a live Claude call (no API key here), the Haiku fallback for unclear questions, car identification from photos, and the LanceDB and BM25 indexes.
+
+## Update: provider split and car identification (23 Nov 2026)
+
+- Decision: Groq (free tier) writes the text answers. Claude reads the photos. Live testing is planned for near the end of the project.
+- `src/rag/llm.py`: `GroqClient` (`GROQ_API_KEY`), `ClaudeClient` with vision (`ANTHROPIC_API_KEY`), and model overrides `TEXT_MODEL`, `VISION_MODEL`, `JUDGE_MODEL`. The default text model is `llama-3.3-70b-versatile`; check Groq's current model list before the live test.
+- `src/alignment/car_identifier.py`: a photo is accepted only if the car number is in the official classification, the model's own digit reading agrees, and confidence is at least 0.6. Rejected sightings are kept with the reason.
+- `scripts/identify_cars.py`: runs over the photo timeline and writes `data/processed/car_identifications.json`. Photos only; video frames come later. Needs `ANTHROPIC_API_KEY`, so it has not been run.
+- `.env.example` lists both provider keys and the model overrides. Lint is clean, and the 23 existing tests still pass.
+- Not yet done: live Groq and Claude calls (waiting for keys), the end-to-end test, video frame extraction, and the search indexes.
+
+## Update: video frames, document search, frontend (23 Nov 2026)
+
+- **Video frames:** 39 clips sampled every 2 s, giving 175 frames on the race clock (`scripts/extract_video_frames.py`). Frames are kept out of git. Assumes the QuickTime time is the clip start (to confirm).
+- **Car identification:** now reads photos and video frames (`scripts/identify_cars.py`). Needs `ANTHROPIC_API_KEY`; not yet run.
+- **Document search:** a keyword (BM25) index over 17 official documents, 315 passages (`scripts/build_text_index.py`, `src/indexing/bm25.py`). Questions with no named car, split or photo are answered from these documents. Press releases are indexed for internal use only until their terms are checked.
+- **Circuit outline:** `GET /api/track` serves the OpenStreetMap track with attribution.
+- **Frontend:** React 19 + TypeScript + Vite in `frontend/`. It has a classification table with search and class filter, a car panel with penalties and lap-time trend, a circuit map with photo pins, a 24-hour scrubber, and an ask panel that shows evidence and the verification result. The production build and type check pass. Not yet opened in a browser.
+- **Tests:** 24 offline tests pass. Lint is clean.
+- **Still to do:** live Groq and Claude calls (need keys), the vector index (SigLIP and LanceDB, not started), browser testing, and the end-to-end test near the end.
+
+## Update: dashboard (23 Nov 2026)
+
+- Deleted `scripts/generate_pdf_report.py` and `scripts/parse_noticeboard.py` (unused).
+- `scripts/build_dashboard_assets.py` writes `frontend/public/data/event.json` and `slideshow.json`, and 99 web-size images to `frontend/public/slideshow/` (not in git).
+- The 10 weekend figures are checked against the organiser's PDF text before they are written. The organiser counts 161 cars; the official classification lists 159.
+- The podium comes from the official result. Car 84 is shown as disqualified, since its press-conference podium was later overturned.
+- Post-race statements are the author's own short summaries, not the organiser's wording. The source is cited on the page.
+- Dashboard: a hero with the photo slideshow behind the headline, then the figures, the podium and statements, and the interactive panels. Dark palette. Type-checks and builds; not yet opened in a browser.
+- Fixed: the photo type label is `photo`, not `image`. The car-identification script had the same bug and would have skipped all photos.
+- Fixed: one short clip (IMG_0731) had no frames. It now gets a first-frame fallback.

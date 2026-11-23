@@ -83,3 +83,32 @@ class MediaRow(BaseModel):
     nearest_section: str | None
     distance_m: float | None
     on_course: bool | None
+
+
+class AskRequest(BaseModel):
+    question: str = Field(min_length=3, max_length=500)
+    car_number: int | None = Field(default=None, ge=0, le=999)
+    hour: int | None = Field(default=None, ge=1, le=23)
+    file: str | None = Field(default=None, max_length=64)
+
+
+class EvidenceItem(BaseModel):
+    id: str
+    kind: str
+    source: str
+    text: str
+
+
+class AskResponse(BaseModel):
+    status: str  # answered | evidence_only | needs_question
+    intent: str
+    evidence: list[EvidenceItem]
+    answer: str | None
+    verified: bool | None
+    problems: list[str]
+    notes: list[str]
+
+
+class TrackOutline(BaseModel):
+    attribution: str
+    points: list[tuple[float, float]]

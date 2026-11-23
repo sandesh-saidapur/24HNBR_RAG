@@ -19,8 +19,8 @@ It matches the author's own trackside photos and videos to the official race clo
 
 | Area | Decision |
 |---|---|
-| LLM provider | Claude only. No Gemini, no OpenAI, no local LLM in the product path. |
-| Models | `claude-sonnet-5-5` for answers and vision (car identification). `claude-haiku-5-5` for query routing. `claude-opus-5-5` for offline judging in evaluation only. |
+| LLM providers | Two providers, split by job. **Groq** (free tier) writes the text answers. **Claude** reads photos (car identification). No Gemini, no OpenAI, no local LLM. |
+| Models | Text answers: `llama-3.3-70b-versatile` on Groq (set by `TEXT_MODEL`). Photo reading: `claude-sonnet-5-5` (`VISION_MODEL`). Offline judging: `claude-opus-5-5` (`JUDGE_MODEL`). Query routing is rule-based, so no router model is needed. |
 | Numbers | Lap times, positions, penalties and totals come from SQL on the timing database. The model is never the source of a figure. |
 | Public demo | Uses only the author's own media. Organiser material (PDFs, figures, quotes) is shown only after its usage terms are checked. |
 | Backend | Python 3.10+, FastAPI, Pydantic v2, DuckDB (read-only at serve time). |
@@ -45,9 +45,10 @@ It matches the author's own trackside photos and videos to the official race clo
                                                                      ▼
                                                    FastAPI  (src/api)  ──►  React app (frontend/)
                                                                      │
-                                                   Phase 4: RAG engine (Claude)
-                                                     Haiku 5.5 router → SQL / vector / text retrieval
-                                                     → Sonnet 5.5 answer with citations
+                                                   Phase 4: RAG engine (Groq text, Claude photos)
+                                                     Rule router → SQL / vector / text retrieval
+                                                     → Groq answer with citations, checked against the evidence
+                                                     Claude vision reads car numbers from photos
 ```
 
 ### Storage
@@ -140,6 +141,8 @@ Run locally: `uvicorn src.api.main:app --reload`. Interactive docs at `/docs`.
 | `GET /api/standings/hours` | Available split hours |
 | `GET /api/standings/{hour}` | Running order at a split |
 | `GET /api/media` | Photo timeline; filter by `on_course` and `phase` |
+| `GET /api/track` | Circuit outline (OpenStreetMap, ODbL attribution included) |
+| `POST /api/ask` | Routes a question, gathers evidence, answers via Groq, and checks every figure against the evidence |
 
 Tests: `pytest` (9 tests against the real database).
 
@@ -162,8 +165,8 @@ Design direction: dark motorsport theme, token-based CSS, responsive layout.
 | 1 | Scaffolding and environment | Done |
 | 2 | Ingestion, alignment and the timing database | Done |
 | 3 | API over the database | Done (9 tests) |
-| 4 | RAG engine: Haiku 5.5 router, SQL and text retrieval, Sonnet 5.5 answers with citations | Next |
-| 5 | React frontend | Planned |
+| 4 | RAG engine: rule-based routing, SQL retrieval, keyword search over official documents, Groq answers with citations, Claude photo reading and video frames | Built and offline-tested (24 tests). Live Groq and Claude calls wait for keys. Vector index (SigLIP and LanceDB) not built | Partly done: evidence, routing, grounded answers and verification built, with Groq for text. Car identification built (Claude vision). Live calls wait for API keys; testing is planned for near the end. Search indexes still to build |
+| 5 | React 19 + TypeScript + Vite frontend: classification, car panel, circuit map with photo pins, 24-hour scrubber, ask panel | Built and type-checked (production build passes). Browser testing near the end |
 | 6 | Evaluation (Opus 5.5 judge), README polish, short demo recording | Planned |
 
 Still needed for Phase 4: the car-identification step (Sonnet 5.5 vision on each photo, checked against the lap data), and the LanceDB and BM25 indexes.

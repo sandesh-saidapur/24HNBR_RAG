@@ -32,9 +32,9 @@ Two rules shape the design:
                                 reconciliation          views
                                                                 │
                                                  RAG engine (Claude)
-                                                 Haiku 5.5 routes the question
-                                                 Sonnet 5.5 answers and reads photos
-                                                 Opus 5.5 judges answers offline
+                                                 Rules route the question
+                                                 Groq writes the answer, checked against the evidence
+                                                 Claude reads car numbers from photos
 ```
 
 ## Verified so far
@@ -90,7 +90,7 @@ The frontend (React, TypeScript, Vite) is in progress.
 | Storage | DuckDB (verified timing), LanceDB and BM25 (planned) |
 | API | FastAPI, Pydantic v2, Uvicorn |
 | Frontend | React 19, TypeScript, Vite |
-| LLM | Claude: Sonnet 5.5 (answers and vision), Haiku 5.5 (routing), Opus 5.5 (evaluation judge) |
+| LLM | Groq for text answers (`llama-3.3-70b-versatile`, free tier); Claude for photo reading (`claude-sonnet-5-5`) and offline judging (`claude-opus-5-5`) |
 | Testing | pytest, httpx |
 
 ---

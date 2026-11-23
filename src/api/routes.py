@@ -6,8 +6,20 @@ from typing import Annotated
 
 from fastapi import APIRouter, HTTPException, Query, Request
 
-from src.api.schemas import CarDetail, CarRow, LapRow, MediaRow, PenaltyRow, StandingRow
+from src.api.schemas import (
+    AskRequest,
+    AskResponse,
+    CarDetail,
+    CarRow,
+    LapRow,
+    MediaRow,
+    PenaltyRow,
+    StandingRow,
+    TrackOutline,
+)
+from src.api.track import ATTRIBUTION, load_outline
 from src.indexing.tabular_store import TimingStore
+from src.rag.pipeline import ask
 
 router = APIRouter(prefix="/api")
 CarNumber = Annotated[int, Query(ge=0, le=999)]
@@ -75,3 +87,40 @@ def list_media(
     phase: Annotated[str | None, Query(pattern="^(pre_start|race|post_finish)$")] = None,
 ) -> list[dict]:
     return store(request).media(on_course, phase)
+
+
+@router.post("/ask", response_model=AskResponse)
+def ask_question(body: AskRequest, request: Request) -> AskResponse:
+    result = ask(
+        store(request),
+        body.question,
+        request.app.state.llm,
+        car_number=body.car_number,
+        hour=body.hour,
+        file=body.file,
+        index=request.app.state.text_index,
+    )
+    evidence = [
+        {"id": e.id, "kind": e.kind, "source": e.source, "text": e.text} for e in result.book
+    ]
+    if result.answer is not None:
+        status = "answered"
+    elif not evidence:
+        status = "needs_question"
+    else:
+        status = "evidence_only"
+    verdict = result.answer.verdict if result.answer else None
+    return AskResponse(
+        status=status,
+        intent=result.intent.kind,
+        evidence=evidence,
+        answer=result.answer.text if result.answer else None,
+        verified=verdict.ok if verdict else None,
+        problems=verdict.problems if verdict else [],
+        notes=result.notes,
+    )
+
+
+@router.get("/track", response_model=TrackOutline)
+def track_outline() -> dict:
+    return {"attribution": ATTRIBUTION, "points": load_outline()}

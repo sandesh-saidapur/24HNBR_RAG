@@ -12,6 +12,8 @@ dependencies = [
     "pyyaml>=6",
     "pillow>=10",
     "pillow-heif>=0.16",
+    "anthropic>=0.40",
+    "httpx>=0.27",
 ]
 
 [project.optional-dependencies]
@@ -33,4 +35,8 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["src", "src.api", "src.indexing"]
+packages = ["src", "src.api", "src.indexing", "src.rag"]
+
+[tool.ruff.lint.per-file-ignores]
+# Curated, hand-written summaries are long prose; line length is not useful there.
+"scripts/build_dashboard_assets.py" = ["E501"]

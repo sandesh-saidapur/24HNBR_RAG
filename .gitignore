@@ -58,3 +58,17 @@ data/processed/*.csv
 
 # Third-party screenshot of another series: not part of the project
 data/raw/track_geometry/Screenshot*
+
+# Extracted video frames (derived from personal media)
+data/processed/frames/
+data/processed/*.json
+
+# Frontend build and dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Personal photos for the dashboard slideshow: not committed
+frontend/public/slideshow/
+
+# Built from organiser timing and press material; publish only after usage terms are checked
+frontend/public/data/
