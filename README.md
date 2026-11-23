@@ -10,11 +10,11 @@
 
 ---
 
-## The idea
+The idea
 
-The 54th ADAC RAVENOL 24h Nürburgring ran from 14 to 17 May 2026, with the race from Saturday 16 May 15:00 CEST to Sunday 17 May 15:00 CEST. The official classification lists 159 entries, and the circuit is 25.378 km long.
+I visited the 54th ADAC RAVENOL 24h Nürburgring, which ran from 14 to 17 May 2026. The race started on Saturday 16 May at 15:00 CEST and finished on Sunday 17 May at 15:00 CEST. The official classification lists 159 entries, and the circuit is 25.378 km long. I wanted the project built around the media I captured there, not a generic dataset.
 
-Trackside 24 starts from a photo taken at the track. It reads the capture time and GPS from the file, converts the time to the race clock, finds the track section, and looks up the official timing for that moment. Then it answers questions about what was happening, citing each source.
+Trackside 24 starts from one of my photos or videos. It reads the capture time and GPS position from the file, converts the time to the race clock, works out which section of the track I was on, and looks up the official timing for that moment. Then it answers questions about what was happening, and each answer cites its sources.
 
 Two rules shape the design:
 - **Every figure comes from the database.** The language model explains and cites. It never calculates or invents a lap time, position or penalty.
