@@ -59,9 +59,21 @@ export function MomentPanel() {
         {!selected && <p className="muted">Pick a photo or video to see the race at that moment.</p>}
         {selected && (
           <>
-            <img className="moment-photo" src={`/thumbs/${stem(selected.file)}.jpg`} alt={selected.file} />
+            {selected.media_type === "photo" ? (
+              <img className="moment-photo" src={`/thumbs/${stem(selected.file)}.jpg`} alt={selected.file} />
+            ) : (
+              <video
+                className="moment-photo"
+                key={selected.file}
+                src={`/videos/${stem(selected.file)}.mp4`}
+                poster={`/thumbs/${stem(selected.file)}.jpg`}
+                controls
+                preload="metadata"
+                playsInline
+              />
+            )}
             <dl className="moment-facts">
-              <div><dt>File</dt><dd>{selected.file}{selected.media_type === "photo" ? "" : " (video frame)"}</dd></div>
+              <div><dt>File</dt><dd>{selected.file}</dd></div>
               <div><dt>Race time</dt><dd>{fmtClock(selected.race_elapsed_s)}</dd></div>
               <div><dt>Stage</dt><dd>{moment?.stage ?? "Loading"}</dd></div>
               <div>
