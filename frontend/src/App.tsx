@@ -7,6 +7,7 @@ import { ClassificationTable } from "./components/ClassificationTable";
 import { Mark } from "./components/Mark";
 import { PhotoSearch } from "./components/PhotoSearch";
 import { PhotoWindow } from "./components/PhotoWindow";
+import { MomentPanel } from "./components/MomentPanel";
 import { HeroTrack } from "./components/HeroTrack";
 import { Timeline } from "./components/Timeline";
 import { TrackMap } from "./components/TrackMap";
@@ -19,6 +20,7 @@ const SECTIONS = [
   { id: "weekend", label: "Weekend" },
   { id: "podium", label: "Podium" },
   { id: "explore", label: "Explore" },
+  { id: "moments", label: "Moments" },
 ];
 
 export default function App() {
@@ -129,6 +131,14 @@ export default function App() {
           </div>
         </section>
 
+
+        <section className="block section" id="moments">
+          <div className="section-title">
+            <h2>Moments</h2>
+            <span className="muted small">Pick a photo or video to see the race at that moment.</span>
+          </div>
+          <MomentPanel />
+        </section>
 
         {event && (
           <footer className="sources">

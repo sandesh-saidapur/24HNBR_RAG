@@ -129,3 +129,20 @@ export interface CircuitSegments {
   attribution: string;
   segments: [number, number][][];
 }
+
+export interface MomentCar {
+  position: number;
+  car_number: number;
+  team: string | null;
+  laps: number;
+  last_end_s: number;
+  drivers: string | null;
+}
+
+export interface MomentRow {
+  race_elapsed_s: number;
+  phase: string;
+  stage: string;
+  hour: number | null;
+  rows: MomentCar[];
+}

@@ -79,3 +79,6 @@ frontend/public/data/
 frontend/public/open-photos/
 frontend/public/car_photos.json
 data/processed/*.png
+
+# Generated thumbnails of personal media: never commit
+frontend/public/thumbs/

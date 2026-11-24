@@ -1,4 +1,4 @@
-import type { AskResponse, Car, CarDetail, CircuitSegments, Lap, MediaItem, PhotoHit, TrackOutline } from "./types";
+import type { AskResponse, Car, CarDetail, CircuitSegments, Lap, MediaItem, MomentRow, PhotoHit, TrackOutline } from "./types";
 
 async function get<T>(path: string): Promise<T> {
   const response = await fetch(path);
@@ -13,6 +13,7 @@ export const api = {
   media: () => get<MediaItem[]>("/api/media"),
   track: () => get<TrackOutline>("/api/track"),
   circuit: () => get<CircuitSegments>("/api/track/circuit"),
+  moment: (t: number) => get<MomentRow>(`/api/moment?t=${encodeURIComponent(t)}`),
   async searchPhotos(q: string, k = 8): Promise<PhotoHit[]> {
     const params = new URLSearchParams({ q, k: String(k) });
     const response = await fetch(`/api/search/photos?${params}`);

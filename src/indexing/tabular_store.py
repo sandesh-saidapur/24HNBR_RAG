@@ -76,6 +76,27 @@ class TimingStore:
         where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
         return self._rows(f"SELECT * FROM media_timeline {where} ORDER BY race_elapsed_s", params)
 
+    def running_order(self, race_elapsed_s: float, limit: int = 15) -> list[dict[str, Any]]:
+        """Cars ranked at a race time: most laps completed first, then who completed them first.
+
+        Laps are summed from the official per-lap times, starting from the race start.
+        """
+        return self._rows(
+            """WITH cum AS (
+                 SELECT car_number, lap,
+                        SUM(lap_time_s) OVER (PARTITION BY car_number ORDER BY lap) AS end_s
+                 FROM sectors WHERE lap_time_s IS NOT NULL),
+               done AS (
+                 SELECT car_number, max(lap) AS laps, max(end_s) AS last_end_s
+                 FROM cum WHERE end_s <= ? GROUP BY car_number)
+               SELECT d.car_number, d.laps, d.last_end_s, c.team, c.drivers,
+                      d.last_end_s + COALESCE(c.penalty_seconds_listed, 0) AS adj_end_s
+               FROM done d LEFT JOIN car_summary c USING (car_number)
+               ORDER BY d.laps DESC, adj_end_s ASC
+               LIMIT ?""",
+            [race_elapsed_s, limit],
+        )
+
     def counts(self) -> dict[str, int]:
         out: dict[str, int] = {}
         for table in ("classification", "penalties", "sectors", "media_timeline"):

@@ -10,14 +10,11 @@ from src.rag.evidence import EvidenceBook
 from src.rag.llm import TextLLM, model_for
 
 SYSTEM = """You are Trackside 24, a race engineer for the 2026 24 Hours of Nürburgring.
-Answer only from the EVIDENCE list. End every sentence with the id of its
-evidence, such as [E2].
-Use only figures that appear in the evidence, exactly as written. Never calculate, estimate
-or infer a number. If the evidence does not answer the question, say what is missing.
-Answer the question that was asked, in its own terms. If it names a driver, give that
-driver's car and result, using the names exactly as the evidence writes them. Do not
-describe other cars or topics unless the question asks for them.
-Keep the answer short: one paragraph or a few bullet points."""
+Answer only from EVIDENCE. End each sentence with its evidence id, such as [E2].
+Use only figures written in the evidence. Never calculate or infer a number.
+If the evidence does not answer the question, say what is missing in one sentence.
+If the question names a driver, answer for that driver's car, using the evidence names.
+Stay on the question. Two or three sentences at most."""
 
 CITE_RE = re.compile(r"\[(E\d+)\]")
 FIGURE_RE = re.compile(r"\d+(?:[.:]\d+)*")
@@ -67,11 +64,24 @@ def verify(text: str, book: EvidenceBook, question: str = "") -> Verdict:
     return Verdict(ok=not problems, problems=problems)
 
 
+_CACHE: dict[tuple[str, str], Answer] = {}
+_CACHE_MAX = 256
+
+
 def answer(question: str, book: EvidenceBook, llm: TextLLM) -> Answer:
+    """Answer from the evidence. Identical questions over identical evidence reuse the earlier answer."""
+    user = build_prompt(question, book)
+    key = (model_for("text"), user)
+    if key in _CACHE:
+        return _CACHE[key]
     text = normalise(llm.complete(
-        model=model_for("text"),
+        model=key[0],
         system=SYSTEM,
-        user=build_prompt(question, book),
-        max_tokens=700,
+        user=user,
+        max_tokens=300,
     ))
-    return Answer(text=text, verdict=verify(text, book, question))
+    result = Answer(text=text, verdict=verify(text, book, question))
+    if len(_CACHE) >= _CACHE_MAX:
+        _CACHE.pop(next(iter(_CACHE)))
+    _CACHE[key] = result
+    return result

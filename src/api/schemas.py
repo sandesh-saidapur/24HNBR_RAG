@@ -125,3 +125,20 @@ class PhotoHit(BaseModel):
 class CircuitSegments(BaseModel):
     attribution: str
     segments: list[list[tuple[float, float]]]
+
+
+class MomentCar(BaseModel):
+    position: int
+    car_number: int
+    team: str | None
+    laps: int
+    last_end_s: float
+    drivers: str | None
+
+
+class MomentRow(BaseModel):
+    race_elapsed_s: float
+    phase: str
+    stage: str
+    hour: int | None
+    rows: list[MomentCar]

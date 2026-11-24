@@ -192,3 +192,29 @@ Still needed for Phase 4: the car-identification step (Sonnet 5.5 vision on each
 ## 11. What the spec no longer contains
 
 The v1 spec described Streamlit, Gemini 1.5 Flash, Claude 3.5 Sonnet, a Florence-2 option and a 16:00 race start. All were wrong or superseded. The race starts at 15:00 CEST. The UI is React, not Streamlit. The model stack is Claude only.
+
+## Plan update (24 November 2026): moments instead of car-number reading
+
+Decision: car numbers are no longer read from photos. A photo's race state comes from its timestamp and the official timing data instead. The Claude API is not needed; the text answers run on Groq.
+
+### What the site does now
+
+- **Moments section.** Pick any of the 99 photos or videos (videos show a frame) to see the race at that moment: the stage (before the start, hour N of 24, or after the finish), the leader at the last hourly split, and the top ten running order.
+- **Running order.** Built from the official per-lap times, summed from the race start. Cars are ranked by laps completed, then by when they completed their last lap. Listed penalty time is added in full from the start, so positions near a penalty are approximate.
+- **Endpoint.** `GET /api/moment?t=<seconds from race start>` returns the stage and the running order.
+
+### Checks made
+
+- Photo timestamps match the race clock (start 16 May 2026, 15:00 CEST). 94 photos fall in the race and 5 after the finish.
+- Known gaps: car 84 has an unexplained lap-sum gap, so its early lead is not reliable; car 35's finish time includes about 527 s that is not in its lap records; the organiser count is 161 cars against 159 classified.
+
+### Answers (Groq)
+
+- Temperature 0, a shorter system prompt, and an output cap of 300 tokens.
+- Identical questions over identical evidence return the cached answer.
+- Driver names are in the evidence, so a question about a driver resolves to that driver's car.
+
+### Paused or dropped
+
+- Reading car numbers from photos with a vision model. Revisit only if a model reads numbers reliably on the free tier.
+- Still open: organiser usage terms for press documents; the 161 vs 159 car count; the git push from the Mac.

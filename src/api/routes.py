@@ -8,6 +8,7 @@ from fastapi import APIRouter, HTTPException, Query, Request
 
 from src.api.schemas import (
     AskRequest,
+    MomentRow,
     AskResponse,
     CircuitSegments,
     CarDetail,
@@ -121,6 +122,32 @@ def ask_question(body: AskRequest, request: Request) -> AskResponse:
         problems=verdict.problems if verdict else [],
         notes=result.notes,
     )
+
+
+def stage_of(t: float) -> tuple[str, str, int | None]:
+    """Phase, label and race hour (1 to 24) for a race time in seconds from the start."""
+    if t < 0:
+        return "pre_start", "before the start", None
+    if t <= 86400:
+        hour = int(t // 3600) + 1
+        return "race", f"hour {hour} of 24", hour
+    return "post_finish", "after the finish", None
+
+
+@router.get("/moment", response_model=MomentRow)
+def moment(
+    request: Request,
+    t: Annotated[float, Query(ge=-3600, le=40000)],
+) -> dict:
+    """Race state at a moment: stage, and the running order by laps completed."""
+    phase, label, hour = stage_of(t)
+    order = store(request).running_order(t)
+    rows = [
+        {"position": i + 1, "car_number": int(r["car_number"]), "team": r["team"],
+         "laps": int(r["laps"]), "last_end_s": float(r["last_end_s"]), "drivers": r["drivers"]}
+        for i, r in enumerate(order)
+    ]
+    return {"race_elapsed_s": t, "phase": phase, "stage": label, "hour": hour, "rows": rows}
 
 
 @router.get("/track", response_model=TrackOutline)

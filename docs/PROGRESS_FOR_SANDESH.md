@@ -156,3 +156,10 @@ Housekeeping:
 - Citation brackets written as 【E1】 are normalised before checking.
 - Groq model: `openai/gpt-oss-120b` (`llama-3.3-70b-versatile` was retired on 16 Aug 2026).
 - Tests: 34 passed. Frontend type-check and build pass; display checked with sample data.
+
+## 24 November 2026: moments view and Groq tuning
+
+- Added a Moments section: pick any of the 99 photos and videos to see the stage, the leader at the last hourly split, and the top ten running order at that time.
+- New endpoint /api/moment, built from the official per-lap times. Penalty time is added in full, so positions near penalties are approximate.
+- Dropped reading car numbers from photos. Groq answers now run at temperature 0, use a shorter prompt, and reuse cached answers for repeated questions.
+- Known data gaps are shown on the page: car 84's lap records, car 35's finish time, and the 161 vs 159 car count.

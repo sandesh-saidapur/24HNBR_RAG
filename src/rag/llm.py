@@ -55,7 +55,7 @@ class GroqClient:
             json={
                 "model": model,
                 "max_tokens": max_tokens,
-                "temperature": 0.2,
+                "temperature": 0.0,
                 "messages": [
                     {"role": "system", "content": system},
                     {"role": "user", "content": user},
